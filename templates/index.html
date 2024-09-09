@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat Interface</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"></link>
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+
+        .custom-sidebar {
+            background-color: #cc0000; /* Set light red color for the sidebar */
+            display: flex;
+            flex-direction: column;
+            height: 100vh;
+        }
+
+        .bg-black-leather-jacket {
+            background-color: #2C3E50; /* Replace with the correct color code for Black Leather Jacket */
+        }
+
+        .text-payne-grey {
+            color: #536878; /* Payne Grey color */
+        }
+
+        .message-input {
+            min-height: 40px;
+            max-height: 120px;
+            overflow-y: auto;
+            resize: none;
+        }
+
+        .sidebar-image {
+            width: 100%;
+            max-height: 80px; /* Set a smaller max-height for the sidebar image */
+            height: auto;
+        }
+
+        .scrollable-chat-list {
+            height: 500px;
+            flex-grow: 1; /* Set a fixed height */
+            overflow-y: auto; /* Enable vertical scrolling */
+        }
+    </style>
+</head>
+<body class="text-white">
+    <div class="flex h-screen">
+        <!-- Sidebar -->
+        <div class="w-1/4 p-6 flex flex-col justify-between custom-sidebar">
+            <div>
+                <div class="flex items-center mb-6">
+                    <button class="flex items-center mb-10 text-gray-400 hover:text-white focus:outline-none" onclick="startNewChat()">
+                        <div class="rounded-full h-12 w-12 bg-gray-600 flex items-center justify-center">
+                            <i class="fas fa-comment-alt text-white text-2xl"></i>
+                        </div>
+                        <span class="ml-2">New chat</span>
+                    </button>
+                </div>
+                <div id="chat-list" class="scrollable-chat-list">
+                    <!-- Chat history buttons will be appended here -->
+                </div>
+            </div>
+        </div>
+
+        <!-- Main content -->
+        <div class="w-3/4 p-10 flex flex-col items-center" style="background-color: beige;">
+            <div id="question-buttons" class="mb-10 text-center">
+                <div class="flex justify-center items-center mb-10"></div>
+                <h2 class="text-3xl font-semibold mb-6 text-payne-grey">How can I help you today?</h2>
+                <div class="grid grid-cols-2 gap-4 place-items-center">
+                    <button class="bg-black-leather-jacket text-white p-6 rounded-lg shadow-md w-64 h-32" onclick="setTextToInput('What does BIKAL stand for, and what is the company\'s main focus in the UK?')">What does BIKAL stand for, and what is the company's main focus in the UK?</button>
+                    <button class="bg-black-leather-jacket text-white p-6 rounded-lg shadow-md w-64 h-32" onclick="setTextToInput('When was the initial version of the Laptop Use Policy created, and who was the author?')">When was the initial version of the Laptop Use Policy created, and who was the author?</button>
+                    <button class="bg-black-leather-jacket text-white p-6 rounded-lg shadow-md w-64 h-32 flex justify-center items-center text-center" onclick="setTextToInput('How should users handle laptop repairs, and who should they contact for repairs?')">How should users handle laptop repairs, and <br>who should they contact for repairs?<br></button>
+                    <button class="bg-black-leather-jacket text-white p-6 rounded-lg shadow-md w-64 h-32 flex justify-center items-center text-center" onclick="setTextToInput('Where is the Middle East\'s first water-cooled HPCaaS located, and what is its significance?')">Where is the Middle East's first water-cooled HPCaaS located, and what is its significance?</button>
+                </div>
+            </div>
+
+            <div id="chat-container" class="w-full">
+                <div id="chat-history" class="mb-6 border border-gray-300 rounded-lg p-4 bg-white text-black" style="height: 400px; overflow-y: auto; display: none;">
+                    <!-- Chat messages will be appended here -->
+                </div>
+                <div class="flex justify-center items-center">
+                    <div class="flex-grow border-t border-gray-600"></div>
+                    <span class="mx-4 text-payne-grey">Message AHBGPT...</span>
+                    <div class="flex-grow border-t border-gray-600"></div>
+                </div>
+                
+                <div class="text-payne-grey text-xs mt-4">AHBGPT can make mistakes. Consider checking important information.</div>
+
+                <div class="flex items-center mt-4">
+                    <textarea id="messageInput" class="message-input bg-gray-800 rounded-full py-3 px-6 w-full" placeholder="Message ChatGPT..." oninput="adjustTextareaHeight(this)"></textarea>
+                    <button onclick="sendMessage()" class="ml-4 bg-blue-500 text-white px-4 py-2 rounded-full">Send</button>
+                </div>
+            </div>
+        </div>
+
+        <script>
+            let currentChatId = null;
+            let chatSummaries = {};
+
+            function adjustTextareaHeight(textarea) {
+                textarea.style.height = 'auto';
+                textarea.style.height = (textarea.scrollHeight) + 'px';
+            }
+
+            function startNewChat() {
+                currentChatId = Date.now().toString();
+                document.getElementById('chat-history').innerHTML = ''; // Clear chat history
+                document.getElementById('question-buttons').style.display = 'block';
+                document.getElementById('chat-history').style.display = 'none';
+                addChatButton(currentChatId);
+            }
+
+            function sendMessage() {
+                var userInput = document.getElementById('messageInput').value;
+                if (!userInput.trim()) return; // Ignore empty messages
+
+                document.getElementById('messageInput').value = ''; // Clear input field
+                addMessage('You', userInput);
+
+                // Send user input to backend
+                fetch('/chatbot', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json'
+                    },
+                    body: JSON.stringify({ message: userInput, chat_id: currentChatId })
+                })
+                .then(response => response.json())
+                .then(data => {
+                    var botResponse = data.response;
+                    addMessage('Gemini', botResponse);
+                });
+
+                // Hide question buttons and show chat history
+                document.getElementById('question-buttons').style.display = 'none';
+                document.getElementById('chat-history').style.display = 'block';
+
+                if (!chatSummaries[currentChatId]) {
+                    chatSummaries[currentChatId] = summarizeText(userInput);
+                }
+                if (!document.querySelector(`[data-chat-id="${currentChatId}"]`)) {
+                    addChatButton(currentChatId, chatSummaries[currentChatId]);
+                }
+            }
+
+            function addMessage(sender, message) {
+                var chatHistory = document.getElementById('chat-history');
+                var messageElement = document.createElement('div');
+                messageElement.innerHTML = '<strong>' + sender + ':</strong> ' + message;
+                chatHistory.appendChild(messageElement);
+                chatHistory.scrollTop = chatHistory.scrollHeight; // Scroll to the bottom
+            }
+
+            function setTextToInput(text) {
+                document.getElementById('messageInput').value = text;
+                // Hide question buttons and show chat history
+                document.getElementById('question-buttons').style.display = 'none';
+                document.getElementById('chat-history').style.display = 'block';
+            }
+
+            function loadChatHistory(chatId) {
+                currentChatId = chatId;
+                fetch('/get_chats')
+                    .then(response => response.json())
+                    .then(data => {
+                        document.getElementById('chat-history').innerHTML = ''; // Clear current chat history
+                        if (data[chatId]) {
+                            data[chatId].forEach(chat => {
+                                addMessage(chat.sender, chat.message);
+                            });
+                        }
+                        document.getElementById('question-buttons').style.display = 'none';
+                        document.getElementById('chat-history').style.display = 'block';
+                    });
+            }
+
+            function deleteChat(chatId) {
+                fetch('/delete_chat', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json'
+                    },
+                    body: JSON.stringify({ chat_id: chatId })
+                })
+                .then(() => {
+                    var chatButton = document.querySelector(`[data-chat-id="${chatId}"]`);
+                    if (chatButton) {
+                        chatButton.remove();
+                    }
+                    // Reset current chat if it is the deleted one
+                    if (currentChatId === chatId) {
+                        currentChatId = null;
+                        document.getElementById('chat-history').innerHTML = '';
+                        document.getElementById('question-buttons').style.display = 'block';
+                        document.getElementById('chat-history').style.display = 'none';
+                    }
+                });
+            }
+
+            function addChatButton(chatId, summary = 'New chat') {
+                var chatList = document.getElementById('chat-list');
+                var chatButton = document.createElement('div');
+                chatButton.className = 'flex items-center mb-2';
+                chatButton.dataset.chatId = chatId;
+
+                chatButton.innerHTML = `
+                    <button class="flex-grow text-left p-2 rounded-lg bg-gray-600 hover:bg-gray-700 focus:outline-none" onclick="loadChatHistory('${chatId}')">
+                        ${summary}
+                    </button>
+                    <button class="ml-2 text-gray-400 hover:text-white focus:outline-none" onclick="deleteChat('${chatId}')">
+                        <i class="fas fa-trash"></i>
+                    </button>
+                `;
+                chatList.prepend(chatButton); // Prepend the new chat button to the chat list
+            }
+
+            function summarizeText(text) {
+                var maxLength = 20;
+                if (text.length <= maxLength) {
+                    return text;
+                }
+                return text.substr(0, maxLength) + '...';
+            }
+
+            // Load existing chats
+            fetch('/get_chats')
+                .then(response => response.json())
+                .then(data => {
+                    for (var chatId in data) {
+                        if (data[chatId].length > 0) {
+                            var lastMessage = data[chatId][data[chatId].length - 1].message;
+                            var summary = summarizeText(lastMessage);
+                            addChatButton(chatId, summary);
+                        }
+                    }
+                });
+            // Add event listener for the Enter key
+            document.getElementById('messageInput').addEventListener('keydown', function(event) {
+                if (event.key === 'Enter' && !event.shiftKey) {
+                    event.preventDefault(); // Prevent default behavior of Enter key (e.g., creating a new line)
+                    sendMessage(); // Trigger sendMessage function
+                }
+            });
+        </script>
+    </body>
+</html>

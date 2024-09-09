@@ -1,0 +1,1730 @@
+{
+  "intents": [
+    {
+      "tag": "laptop_policy_creation",
+      "patterns": ["When was the initial version of the Laptop Use Policy created, and who was the author?"],
+      "responses": ["The initial version of the Laptop Use Policy was created on the 9th of Dec 2023, and the author was Ahmed Elbanna."]
+    },
+    {
+      "tag": "laptop_policy_review",
+      "patterns": ["Who reviewed the initial version of the Laptop Use Policy, and when did the review take place?"],
+      "responses": ["The initial version of the Laptop Use Policy was reviewed by Mustafa Rampurawala on the 20th of Dec 2023."]
+    },
+    {
+      "tag": "laptop_policy_objective",
+      "patterns": ["What is the primary objective of the Laptop Use Policy regarding the use of BIKAL / AHB information systems?"],
+      "responses": ["The primary objective is to ensure the acceptable use of BIKAL / AHB information systems, particularly laptops."]
+    },
+    {
+      "tag": "laptop_loss_action",
+      "patterns": ["What action should users take in the event of the loss of a laptop, and who should they contact?"],
+      "responses": ["In the event of a loss, users must report it to the police and contact maahr@ahb.ai as soon as possible to limit access to Maahr and Accessible data."]
+    },
+    {
+      "tag": "laptop_preventive_measures",
+      "patterns": ["What preventive measures must users take to safeguard their laptops?"],
+      "responses": ["Users must not leave laptops unattended, lock their accounts when leaving the laptop, use a padded bag to reduce accidental damage, and carry out regular backups of business-related files on One Drive."]
+    },
+    {
+      "tag": "laptop_repairs",
+      "patterns": ["How should users handle laptop repairs, and who should they contact for repairs?"],
+      "responses": ["Users may not take the laptop for repair to any external vendor; repairs should be done through maahr@ahb.ai only."]
+    },
+    {
+      "tag": "laptop_administrative_functions",
+      "patterns": ["What administrative functions of the laptop must users not tamper with?"],
+      "responses": ["Users must not tamper with administrative functions such as the OS or Admin Account and password."]
+    },
+    {
+      "tag": "third_party_software_request",
+      "patterns": ["What is the process for requesting the installation of third-party software on laptops?"],
+      "responses": ["Users must request approval for installing third-party software from maahr@ahb.ai."]
+    },
+    {
+      "tag": "laptop_backup",
+      "patterns": ["How often should users backup business-related files stored on their laptops?"],
+      "responses": ["Users must backup business-related files on a regular basis on their One Drive."]
+    },
+    {
+      "tag": "laptop_security_measures",
+      "patterns": ["What security measures should users follow for their laptops, according to the policy?"],
+      "responses": ["Users must enable Windows update, use a strong password, and undergo regular security assessments by the AI Infra Team."]
+    },
+    {
+      "tag": "ai_infra_team_responsibility",
+      "patterns": ["What is the responsibility of the AI Infra Team regarding security assessments for users' laptops?"],
+      "responses": ["The AI Infra Team will conduct regular and random security assessments and send reports for users to remove unapproved applications."]
+    },
+    {
+      "tag": "approved_applications_list",
+      "patterns": ["How will the AI Infra Team provide a list of approved applications to users?"],
+      "responses": ["The AI Infra Team will send a list of approved applications based on users' job, roles, and needs."]
+    },
+    {
+      "tag": "laptop_safeguarding_importance",
+      "patterns": ["Why is safeguarding laptops important according to the policy?"],
+      "responses": ["Safeguarding laptops is crucial to prevent damage, theft, or loss of valuable information assets stored on the laptop, which could harm the organization and its users."]
+    },
+    {
+      "tag": "unauthorized_access_reporting",
+      "patterns": ["What is the responsibility of users if they notice any unauthorized access or suspicious activity on their laptop?"],
+      "responses": ["Users must report any unauthorized access or suspicious activity to maahr@ahb.ai promptly."]
+    },
+    {
+      "tag": "confidential_info_handling",
+      "patterns": ["How should users handle confidential information when using their laptops in public areas?"],
+      "responses": ["Users must not leave laptops unattended, especially in public areas like airports, and take measures to secure confidential information."]
+    },
+    {
+      "tag": "lost_laptop_action",
+      "patterns": ["What steps should users take to minimize the impact in the event of a lost laptop?"],
+      "responses": ["Users should report the loss to the police, contact maahr@ahb.ai immediately, and take actions to limit access to sensitive data."]
+    },
+    {
+      "tag": "security_assessment_purpose",
+      "patterns": ["What is the purpose of the regular and random security assessments conducted by the AI Infra Team?"],
+      "responses": ["The assessments are conducted to ensure policy enforcement and identify and remove unapproved applications from users' laptops."]
+    },
+    {
+      "tag": "antivirus_update",
+      "patterns": ["How often should users update their Endpoint Detection and Response (Anti-Virus) software?"],
+      "responses": ["Users must ensure that their Endpoint Detection and Response (Anti-Virus) software is updated regularly on their laptops."]
+    },
+    {
+      "tag": "administrative_tampering_consequences",
+      "patterns": ["What consequences may users face if they tamper with the administrative functions of their laptops?"],
+      "responses": ["Tampering with administrative functions, such as the OS or Admin Account and password, may result in disciplinary actions as per the policy."]
+    },
+    {
+      "tag": "external_repair_policy",
+      "patterns": ["In what circumstances can users take their laptops for repair to an external vendor?"],
+      "responses": ["Users are not allowed to take laptops for repair to any external vendor at any point in time; repairs must be done through maahr@ahb.ai only."]
+    },
+    {
+      "tag": "software_approval_request",
+      "patterns": ["How can users request approval for installing third-party software on their laptops?"],
+      "responses": ["Users must send a request for approval to install third-party software to maahr@ahb.ai."]
+    },
+    {
+      "tag": "windows_update_significance",
+      "patterns": ["What is the significance of enabling Windows updates on laptops?"],
+      "responses": ["Enabling Windows updates is important to ensure that users receive the latest updates from Microsoft as soon as they are available, enhancing security and performance."]
+    },
+    {
+      "tag": "laptop_damage_prevention",
+      "patterns": ["What steps should users take to protect their laptops from accidental damage?"],
+      "responses": ["Users should carry and store laptops in a padded laptop computer bag or strong briefcase to reduce the chance of accidental damage."]
+    },
+    {
+      "tag": "organization_security_contribution",
+      "patterns": ["How can users contribute to the security of the organization's laptops?"],
+      "responses": ["Users can contribute by following the policy guidelines, using strong passwords, and promptly reporting any security concerns or incidents."]
+    },
+    {
+      "tag": "security_assessment_report",
+      "patterns": ["What information does the AI Infra Team provide in their regular security assessment reports for users' laptops?"],
+      "responses": ["The AI Infra Team provides reports with findings and recommendations, including the removal of unapproved applications."]
+    },
+    {
+      "tag": "onedrive_backup_importance",
+      "patterns": ["Why is it important for users to back up business-related files on OneDrive regularly?"],
+      "responses": ["Regular backups on One Drive are crucial to ensure the availability and recovery of business-related files in case of laptop loss, damage, or failure."]
+    },
+    {
+      "tag": "third_party_software_approval_role",
+      "patterns": ["What is the role of the AI Infra Team in the approval process for third-party software installation?"],
+      "responses": ["The AI Infra Team does not approve third-party software installation directly; users must request approval from maahr@ahb.ai."]
+    },
+    {
+      "tag": "user_responsibility_safeguarding",
+      "patterns": ["How does the policy ensure that users follow an appropriate level of responsibility for safeguarding their laptops?"],
+      "responses": ["The policy outlines specific guidelines and responsibilities for users, ensuring they follow appropriate measures to safeguard their laptops."]
+    },
+    {
+      "tag": "restrict_data_access_lost_laptop",
+      "patterns": ["What measures are in place to restrict access to Maahr and Accessible data in the event of a lost laptop?"],
+      "responses": ["Users are required to report the loss to the police, and contact with maahr@ahb.ai is crucial to limit access to Maahr and Accessible data."]
+    },
+    {
+      "tag": "strong_password_policy",
+      "patterns": ["How does the policy address the use of strong passwords for laptop accounts?"],
+      "responses": ["Users must adhere to the Password Management Policy, ensuring the use of strong passwords for their laptop accounts."]
+    },
+    {
+      "tag": "joint_venture_nature",
+      "patterns": ["What is the nature of the joint venture between Al Hathboor Group LLC. and Bikal Technologies Ltd.?"],
+      "responses": ["The joint venture is between Al Hathboor Group LLC. and Bikal Technologies Ltd. (DIFC), a subsidiary of BIKAL UK."]
+    },
+    {
+      "tag": "water_cooled_hpcaas_location",
+      "patterns": ["Where is the Middle East's first water-cooled HPCaaS located, and what is its significance?"],
+      "responses": ["The Middle East's first water-cooled HPCaaS is located in Sharjah, SRTIP, and it is a significant development for the region."]
+    },
+    {
+      "tag": "al_hathboor_bikal_focus",
+      "patterns": ["What is the focus of Al Hathboor Bikal.ai as a product company?"],
+      "responses": ["Al Hathboor Bikal.ai is a product company focused on solving customer challenges using Artificial Intelligence and Data Science."]
+    },
+    {
+      "tag": "al_hathboor_bikal_vision",
+      "patterns": ["What is the vision of Al Hathboor Bikal.ai?"],
+      "responses": ["The vision is to be the premier catalyst for technology transfer and product development, empowering the UAE to become a global leader in innovative solutions."]
+    },
+    {
+      "tag": "achieving_company_mission",
+      "patterns": ["How does the company aim to achieve its mission?"],
+      "responses": ["The company aims to develop forward-thinking, practical solutions by combining cutting-edge technology, industry expertise, and customer-centricity."]
+    },
+    {
+      "tag": "ahb_historical_timeline_events",
+      "patterns": ["What key events are highlighted in the AHB Historical Timeline?"],
+      "responses": ["The AHB Historical Timeline includes key events from the discussion initiation in 2021 to the signing off of the Data Center in SRTIP in May 2023."]
+    },
+    {
+      "tag": "ahb_bikal_discussion_initiation",
+      "patterns": ["Why did Al Hathboor and Bikal UK initiate discussions in September 2021?"],
+      "responses": ["Discussions started in September 2021 to bring AI development to the UAE."]
+    },
+    {
+      "tag": "hpc_data_center_significance",
+      "patterns": ["What is the significance of the HPC Data Center established in SRTIP in January 2022?"],
+      "responses": ["The HPC Data Center established in SRTIP in January 2022 is a part of the joint venture's plan."]
+    },
+    {
+      "tag": "lenovo_ahb_data_center_role",
+      "patterns": ["What is the role of Lenovo in the AHB Historical Timeline, specifically in May 2023?"],
+      "responses": ["Lenovo and AHB signed off the Data Center in SRTIP in May 2023 as part of the joint venture's milestones."]
+    },
+    {
+      "tag": "hpc_infrastructure_function",
+      "patterns": ["In simple terms, how does an HPC Infrastructure function?"],
+      "responses": ["An HPC Infrastructure combines the capabilities of multiple high-end processors, enhanced by a GPU, to deliver fast and precise results."]
+    },
+    {
+      "tag": "ahb_domains_expertise",
+      "patterns": ["What are the domains or expertise areas of Al Hathboor Bikal.ai?"],
+      "responses": ["The domains of expertise for Al Hathboor Bikal.ai include Law Enforcement, Insurance Investigation, Criminal Law, and Social Services."]
+    },
+    {
+      "tag": "primary_data_sources",
+      "patterns": ["What are the primary data sources mentioned for Al Hathboor Bikal.ai's operations?"],
+      "responses": ["Primary data sources include Law Enforcement, Government Departments, Social Services, Social Media, and the Darkweb."]
+    },
+    {
+      "tag": "data_science_university_collaboration",
+      "patterns": ["What universities are involved in the Data Science initiatives of Al Hathboor Bikal.ai?"],
+      "responses": ["Data Science initiatives involve collaboration with the University of Surrey, University of Kent, and Kyoto University."]
+    },
+    {
+      "tag": "university_of_surrey_role",
+      "patterns": ["What role does the University of Surrey play in Al Hathboor Bikal.ai's Data Science initiatives?"],
+      "responses": ["The University of Surrey is involved in Al Hathboor Bikal.ai's Data Science initiatives, contributing to cutting-edge research and development."]
+    },
+    {
+      "tag": "empowering_uae_vision",
+      "patterns": ["How does the company plan to empower the UAE to become a global leader in innovative solutions?"],
+      "responses": ["The company plans to empower the UAE by combining cutting-edge technology, industry expertise, and customer-centricity to develop innovative solutions."]
+    },
+    {
+      "tag": "hpc_data_center_setup_steps",
+      "patterns": ["What steps were involved in formulating the plan for setting up the HPC Data Center in SRTIP?"],
+      "responses": ["Steps involved in formulating the plan for setting up the HPC Data Center included discussions, formalization of the plan, and the formation of a Joint Venture agreement."]
+    },
+    {
+      "tag": "technology_transfer_contribution",
+      "patterns": ["How does Al Hathboor Bikal.ai contribute to technology transfer and product development in the UAE?"],
+      "responses": ["Al Hathboor Bikal.ai contributes to technology transfer and product development by providing practical solutions through the application of advanced technology."]
+    },
+    {
+      "tag": "ai_ds_challenges",
+      "patterns": ["What types of challenges does Al Hathboor Bikal.ai aim to solve using Artificial Intelligence and Data Science?"],
+      "responses": ["The company aims to solve challenges in domains such as Law Enforcement, Insurance Investigation, Criminal Law, and Social Services using AI and Data Science."]
+    },
+    {
+      "tag": "ai_system_process_workflow",
+      "patterns": ["What are the key steps in the Typical AI System Process Workflow mentioned in the provided text?"],
+      "responses": ["The key steps in the Typical AI System Process Workflow are Researching the Idea, Problem Statement, engaging with a university and an end user, iterative development, data sourcing, solution development, productization, deployment, and collection, verification, and support."]
+    },
+    {
+      "tag": "field_data_gathering_importance",
+      "patterns": ["Why is the gathering of new data from the field important in the AI system process workflow?"],
+      "responses": ["Gathering new data from the field is crucial as it helps in improving a model's performance through iterative development and ensures the system remains relevant and effective."]
+    },
+    {
+      "tag": "business_case_involvement",
+      "patterns": ["What does the business case involve in the AI system process workflow?"],
+      "responses": ["The business case involves understanding and analyzing customer insights, current practices, ROI analysis, and market solutions analysis to develop a robust case for the AI system."]
+    },
+    {
+      "tag": "trial_period_significance",
+      "patterns": ["What is the significance of the Trial Period in the AI system process workflow, and how long does it typically last?"],
+      "responses": ["The Trial Period in the AI system process workflow typically lasts for an average of 12 weeks and serves as a testing phase for the developed solutions."]
+    },
+    {
+      "tag": "hpc_usage_srtip",
+      "patterns": ["Why is High-Performance Computing (HPC) used in SRTIP, and what advantages does it offer?"],
+      "responses": ["High-Performance Computing (HPC) is used in SRTIP due to its role as an Innovation Gateway, offering a crucial platform for research and tech solutions in AI, Big Data, Data Science, and IoT."]
+    },
+    {
+      "tag": "ahb_unique_value_proposition",
+      "patterns": ["What is AHB's Unique Value Proposition, and how does it contribute to the Innovation Chain?"],
+      "responses": ["AHB's Unique Value Proposition is centered around the Innovation Chain, converting science into wealth through collaboration with academia and industry, leading to knowledge, technology, and business development."]
+    },
+    {
+      "tag": "srtip_role_ai_system",
+      "patterns": ["What role does SRTIP play in the AI system process workflow, particularly in terms of innovation and incubation?"],
+      "responses": ["SRTIP plays a crucial role in the AI system process workflow by serving as an Innovation Gateway, offering an HPC platform, ensuring data sovereignty, and allowing for trialing solutions in simulated live environments."]
+    },
+    {
+      "tag": "ahb_consortium_purpose",
+      "patterns": ["What is the purpose of the AHB Consortium, and which organizations are part of it?"],
+      "responses": ["The AHB Consortium is a collaborative network involving organizations such as Intel, Lenovo, CDW, NVIDIA, CERT Higher Colleges of Technology, Department for International Trade, UK Export Finance, Sharjah Research Technology Innovation Park."]
+    },
+    {
+      "tag": "domain_expert_insurance_banking_fraud",
+      "patterns": ["Who is the domain expert in Insurance & Banking Fraud, and what is Nigel Cheeseman's experience in fraud investigation?"],
+      "responses": ["The domain expert in Insurance & Banking Fraud is Nigel Cheeseman, who has over 20 years of experience in the investigation of fraud in insurance claims, including work on complex cases targeting serious organized criminals."]
+    },
+    {
+  "tag": "chris_miller_background",
+  "patterns": ["What has been Chris Miller's career background, particularly in Policing, Crime Investigation, and Offender Management?"],
+  "responses": ["Chris Miller has a background in Policing, Crime Investigation, and Offender Management. He managed significant units within Hertfordshire Constabulary, leading to the development of advanced collaborative policing units."]
+},
+{
+  "tag": "andrew_baillie_telecom_5g_expert",
+  "patterns": ["Who is the domain expert in Telecom and 5G, and what has been Andrew Baillie's experience in the field?"],
+  "responses": ["The domain expert in Telecom and 5G is Andrew Baillie, with over 30 years of experience as a senior executive in main network operators such as BT, Cable & Wireless, STC, Ooredoo, Sunrise, and Vodafone."]
+},
+{
+  "tag": "nigel_cheeseman_economic_crime_detection",
+  "patterns": ["How does Nigel Cheeseman currently contribute to the detection of economic crime in the financial and insurance services sector?"],
+  "responses": ["Nigel Cheeseman currently assesses how different sources of data can help predict economic crime in the financial and insurance services sector. His work detects mules, vulnerable victims, exploited victims, and the organizers of crime, collaborating with law enforcement agencies in the UK."]
+},
+{
+  "tag": "chris_miller_policing_units_achievements",
+  "patterns": ["What significant achievements does Chris Miller have in terms of managing policing units and advancing collaborative policing?"],
+  "responses": ["Chris Miller has managed significant policing units, including the Hertfordshire Murder team and the Bedfordshire and Hertfordshire Major Crime team. He has used technology to improve policing through rehabilitation and crime prevention after retiring in 2011."]
+},
+{
+  "tag": "andrew_baillie_telecom_5g_contribution",
+  "patterns": ["How has Andrew Baillie used his expertise in Telecom and 5G to contribute to the industry, especially in recent years?"],
+  "responses": ["Andrew Baillie, with over 30 years of experience, is currently working with Telco start-ups and innovation SMEs to create new products that are 5G and AI-enabled. He leads forums and works with service providers to aid change in the Telecom and 5G industry."]
+},
+{
+  "tag": "expenses_contact",
+  "patterns": ["Who should I contact regarding my expenses?"],
+  "responses": ["Contact the admin at admin@bikaltech.com."]
+},
+{
+  "tag": "leave_booking",
+  "patterns": ["How do I book my leave?"],
+  "responses": ["Fill in the leave form template and send it to admin@bikaltech.com."]
+},
+{
+  "tag": "notify_off_work",
+  "patterns": ["How do I notify that I am off work?"],
+  "responses": ["Send a note to your line manager and cc admin@bikaltech.com."]
+},
+{
+  "tag": "schedule_meeting_raj",
+  "patterns": ["How can I schedule a 15-minute meeting with Raj?"],
+  "responses": ["Check Raj's calendar using this link."]
+},
+{
+  "tag": "sales_management_bikal",
+  "patterns": ["Who manages sales at Bikal Technologies?"],
+  "responses": ["We have value creators for each region instead of a traditional sales team."]
+},
+{
+  "tag": "expenses_submission",
+  "patterns": ["Where should I send my expenses?"],
+  "responses": ["Send receipts with an Excel sheet listing expenses and any approvals to admin@bikaltech.com."]
+},
+{
+  "tag": "university_contacts_management",
+  "patterns": ["Who manages contacts from universities?"],
+  "responses": ["Head of tech transfer is Siona Picardo, and you can find her details on the Capsule CRM link."]
+},
+{
+  "tag": "excel_personnel_details_creation",
+  "patterns": ["How can I create an Excel sheet of personnel details?"],
+  "responses": ["Create tabs for personnel details, including name, job titles, roles/responsibilities."]
+},
+{
+  "tag": "next_holiday_uae",
+  "patterns": ["When is the next holiday in the UAE?"],
+  "responses": ["The next holiday is January 1, New Year’s Day. You can find more information on UAE public holidays on various websites."]
+},
+{
+  "tag": "crm_capsule_integration",
+  "patterns": ["Can we link CRM Capsule through API?"],
+  "responses": ["Yes, Capsule CRM provides an API for integration and interaction with the CRM system programmatically."]
+},
+{
+  "tag": "google_drive_api_integration",
+  "patterns": ["Can we link Google Drive API?"],
+  "responses": ["Yes, you can integrate Google Drive with other applications or services using the Google Drive API."]
+},
+{
+  "tag": "google_drive_api_use",
+  "patterns": ["What is the use of Google Drive API?"],
+  "responses": ["The Google Drive API allows various operations like uploading and downloading files, creating folders, sharing files, etc."]
+},
+{
+  "tag": "general_manager_bikal",
+  "patterns": ["Who is the General Manager of Bikal Technologies Limited?"],
+  "responses": ["Raj Sandhu is the General Manager of Bikal Technologies Limited."]
+},
+{
+  "tag": "establishment_date_bikal",
+  "patterns": ["When was Bikal Technologies Limited established?"],
+  "responses": ["Bikal Technologies Limited was established on May 18, 2022."]
+},
+{
+  "tag": "location_bikal",
+  "patterns": ["Where is Bikal Technologies Limited located?"],
+  "responses": ["Bikal Technologies Limited is in Dubai International Financial Centre, Dubai, UAE."]
+},
+{
+  "tag": "legal_status_bikal",
+  "patterns": ["What is the legal status of Bikal Technologies Limited?"],
+  "responses": ["Bikal Technologies Limited is a Private Company, Free Zone."]
+},
+{
+  "tag": "vat_registration_bikal",
+  "patterns": ["Is Bikal Technologies Limited VAT registered?"],
+  "responses": ["Yes, Bikal Technologies Limited is VAT registered."]
+},
+{
+  "tag": "trn_bikal",
+  "patterns": ["What is Bikal Technologies Limited TRN?"],
+  "responses": ["Bikal Technologies Limited TRN is 104061174900003."]
+},
+{
+  "tag": "head_office_address_bikal",
+  "patterns": ["What is Bikal Technologies Limited head office address?"],
+  "responses": ["Bikal Technologies Limited head office address is Unit 02, Level 7 Gate Village Building 10 Dubai International Financial Centre."]
+},
+{
+  "tag": "operations_director_bikal",
+  "patterns": ["Who is the Operations Director of Bikal Technologies Limited?"],
+  "responses": ["Jas Dahil is the Operations Director of Bikal Technologies Limited."]
+},
+{
+  "tag": "bikal_uk_focus",
+  "patterns": ["What does BIKAL stand for, and what is the company's main focus in the UK?"],
+  "responses": ["BIKAL stands for British Innovation, Knowledge, and Advanced Learning. The company is dedicated to harnessing the power of university research to address social and business challenges in the UK."]
+},
+{
+  "tag": "bikal_unique_approach",
+  "patterns": ["What is BIKAL's unique approach to solving challenges, and how does it leverage university research?"],
+  "responses": ["BIKAL's unique approach involves iterative experimentation and gradual expansion, allowing the company to develop effective solutions by incorporating data from various sources. It leverages decades of expertise within the academic sector to facilitate the transfer of technology to both public and private domains."]
+},
+{
+  "tag": "bikal_problem_solving_contribution",
+  "patterns": ["How does BIKAL contribute to societal and business problem-solving, and what is its primary motivation?"],
+  "responses": ["BIKAL's team of domain experts, AI engineers, and academic partners collaborate to generate innovative ideas aimed at solving societal and business problems. The company's primary motivation is to create value for fellow citizens by proactively addressing the root causes of negative events, rather than simply suppressing the symptoms."]
+},
+{
+  "tag": "bikal_product_projects",
+  "patterns": ["Can you provide details on BIKAL's product development projects, specifically Event XG, Synth XR, and Convoi XA?"],
+  "responses": ["BIKAL's product development projects include Event XG (Gather and Extract), Synth XR (Extract and Relate), and Convoi XA. Event XG extracts significant events, objects, and data points for modeling. Synth XR synthesizes temporal and spatial relatedness using AI. Convoi XA identifies the behavior of a stolen vehicle convoy and alerts the Police for intervention."]
+},
+{
+  "tag": "bikal_tech_transfer_projects",
+  "patterns": ["What are the objectives of BIKAL's Tech Transfer Projects, focusing on Computer Vision for Diabetic Retinopathy Detection?"],
+  "responses": ["BIKAL's Tech Transfer Project involves developing ClearSight.ai, a comprehensive Diabetic Retinopathy (DR) Detection System. The objectives include implementing advanced image analysis, utilizing machine learning models for categorizing severity levels, providing real-time diagnostics, designing a user-friendly interface, ensuring secure data storage, enabling continuous model enhancement, and integrating with medical systems for efficient data exchange."]
+},
+{
+  "tag": "bikal_commercial_projects_ai_agent",
+  "patterns": ["Can you elaborate on BIKAL's Commercial Projects, specifically Ai Agent?"],
+  "responses": ["BIKAL's Commercial Projects include Ai Agent integrated into Call Centers and various LOBs."]
+},
+{
+  "tag": "bikal_commercial_projects_ai_retail",
+  "patterns": ["Can you elaborate on BIKAL's Commercial Projects, specifically Ai in Retail?"],
+  "responses": ["BIKAL's Commercial Projects in Retail involve Queue Management System (QMS) and IoT applications."]
+},
+{
+  "tag": "bikal_commercial_projects_ai_road_network",
+  "patterns": ["Can you elaborate on BIKAL's Commercial Projects, specifically Ai in Road Network?"],
+  "responses": ["BIKAL's Commercial Projects in Road Network focus on logistics operations using AI, Machine Learning, and Predictive Data Analytics."]
+},
+{
+  "tag": "bikal_commercial_projects_ai_railway",
+  "patterns": ["Can you elaborate on BIKAL's Commercial Projects, specifically Ai in Railway?"],
+  "responses": ["BIKAL's Commercial Projects in Railway enhance digital innovations for asset monitoring and predictive maintenance through the development of a Digital Twin."]
+},
+{
+  "tag": "bikal_in_house_projects_chatbot",
+  "patterns": ["What are some of BIKAL's In-house Projects, including Chatbot?"],
+  "responses": ["BIKAL's In-house Projects involve a highly scalable Chatbot fine-tuned in a customer-specific domain."]
+},
+{
+  "tag": "bikal_in_house_projects_vehicle_detection",
+  "patterns": ["What are some of BIKAL's In-house Projects, including Vehicle Detection?"],
+  "responses": ["BIKAL's In-house Projects include Vehicle Detection for Traffic Management and CFC Insurance Fraud."]
+},
+{
+  "tag": "bikal_in_house_projects_license_plate_detection",
+  "patterns": ["What are some of BIKAL's In-house Projects, including License Plate Detection?"],
+  "responses": ["BIKAL's In-house Projects include License Plate Detection with potential applications in Policing, CFC Insurance Fraud, and Transportation of Vehicles (ToV)."]
+},
+{
+  "tag": "bikal_domain_experts_nigel_cheeseman",
+  "patterns": ["Who are the key domain experts at BIKAL Tech UK, specifically Nigel Cheeseman?"],
+  "responses": ["Nigel Cheeseman specializes in Insurance & Banking Fraud."]
+},
+{
+  "tag": "bikal_domain_experts_chris_miller",
+  "patterns": ["Who are the key domain experts at BIKAL Tech UK, specifically Chris Miller?"],
+  "responses": ["Chris Miller specializes in Policing, Crime Investigation & Offender Management."]
+},
+{
+  "tag": "bikal_domain_experts_andrew_baillie",
+  "patterns": ["Who are the key domain experts at BIKAL Tech UK, specifically Andrew Baillie?"],
+  "responses": ["Andrew Baillie specializes in Telecom and 5G."]
+},
+{
+  "tag": "nigel_cheeseman_insurance_banking_fraud_focus",
+  "patterns": ["What is the primary focus of Nigel Cheeseman's work in Insurance & Banking Fraud?"],
+  "responses": ["Nigel Cheeseman focuses on investigating fraud in insurance claims."]
+},
+{
+  "tag": "nigel_cheeseman_fraud_detection_techniques",
+  "patterns": ["What techniques does Nigel Cheeseman employ in his work?"],
+  "responses": ["Nigel Cheeseman utilizes both in-person and cybercrime techniques, collaborating with law enforcement and employing data from various sources to predict economic crime."]
+},
+{
+  "tag": "chris_miller_policing_units_achievements",
+  "patterns": ["What achievements and innovations are attributed to Chris Miller in his career, particularly in managing policing units?"],
+  "responses": ["Chris Miller managed significant policing units, including the Hertfordshire Murder team and the Bedfordshire and Hertfordshire Major Crime team."]
+},
+{
+  "tag": "chris_miller_collaborative_policing_advancements",
+  "patterns": ["What role did Chris Miller play in advancing collaborative policing units?"],
+  "responses": ["Chris Miller redesigned units, achieved budget savings, and played a key role in advancing collaborative policing units."]
+},
+{
+  "tag": "andrew_baillie_telecom_5g_experience",
+  "patterns": ["What is Andrew Baillie's extensive experience in Telecom and 5G?"],
+  "responses": ["Andrew Baillie has over 30 years of experience with major network operators and is currently working with Telco start-ups and SMEs, creating new products that are 5G and AI-enabled. He leads forums and collaborates with service providers for industry change."]
+},
+{
+  "tag": "andrew_baillie_telecom_5g_contribution",
+  "patterns": ["How is Andrew Baillie currently contributing to the Telecom and 5G industry?"],
+  "responses": ["Andrew Baillie is currently working with Telco start-ups and SMEs, creating new products that are 5G and AI-enabled."]
+},
+{
+  "tag": "laptop_antivirus_policy_purpose",
+  "patterns": ["What is the purpose of the Laptop Anti-Virus Policy?"],
+  "responses": ["The purpose of the Laptop Anti-Virus Policy is to detect, prevent, and minimize the impact of virus outbreaks in the organization's systems, ensuring protective and optimal performance of users."]
+},
+{
+  "tag": "laptop_antivirus_policy_initial_version",
+  "patterns": ["Who is responsible for the initial version of the Laptop Anti-Virus Policy, and who reviewed it?"],
+  "responses": ["Ahmed Elbanna is responsible for the initial version (V 1.0) of the Laptop Anti-Virus Policy. Mustafa Rampurawala reviewed the initial version (V 1.0)."]
+},
+{
+  "tag": "laptop_antivirus_policy_control_measures",
+  "patterns": ["What control measures are defined in the policy to protect the systems against virus attacks?"],
+  "responses": ["Control measures defined in the policy include using only authorized and licensed software, scanning all files and software for viruses before use, and ensuring laptops are updated with anti-virus software."]
+},
+{
+  "tag": "laptop_antivirus_policy_virus_alert_procedure",
+  "patterns": ["What should users do if they encounter a virus alert or suspicious activity on their systems?"],
+  "responses": ["Users should immediately disconnect their systems from the network and contact maahr@ahb.ai for immediate support."]
+},
+{
+  "tag": "laptop_antivirus_policy_software_use_requirement",
+  "patterns": ["What is the requirement regarding the use of software by users in the organization according to the policy?"],
+  "responses": ["Users are required to use only authorized and licensed software in the organization and must not use any other software without permission."]
+},
+{
+  "tag": "laptop_antivirus_policy_infra_team_role",
+  "patterns": ["What role does the AHB AI Infra Team play in checking and updating the Anti-Virus software on laptops?"],
+  "responses": ["The AHB AI Infra Team routinely checks laptops for Anti-Virus software presence and updates them as necessary."]
+},
+{
+  "tag": "laptop_antivirus_policy_monitoring_logs",
+  "patterns": ["How does the AHB AI Infra Team monitor the Anti-Virus logs and events on laptops?"],
+  "responses": ["The AHB AI Infra Team monitors Anti-Virus logs and events on laptops and servers to ensure they are running with the latest updates."]
+},
+{
+  "tag": "laptop_antivirus_policy_disable_software",
+  "patterns": ["Can users disable the anti-virus software residing on their laptops according to the policy?"],
+  "responses": ["No, users are not allowed to disable the anti-virus software residing on their laptops according to the policy."]
+},
+{
+  "tag": "laptop_antivirus_policy_suspicious_event",
+  "patterns": ["What action does the AHB AI Infra Team take if they notice any suspicious event on a user's laptop?"],
+  "responses": ["The AHB AI Infra Team notifies the user if they notice any suspicious event on their laptop."]
+},
+{
+  "tag": "laptop_antivirus_policy_downloaded_files",
+  "patterns": ["What steps are recommended for files and software downloaded from external networks or via email before use, according to the policy?"],
+  "responses": ["Before use, all files and software downloaded or received from external networks, email, or any other medium should be scanned for viruses or malicious content."]
+},
+{
+  "tag": "laptop_antivirus_policy_check_frequency",
+  "patterns": ["How often does the AHB AI Infra Team check the laptops for the presence of Anti-Virus software, and why is this check important?"],
+  "responses": ["The AHB AI Infra Team routinely checks laptops for the presence of Anti-Virus software to ensure all laptops are protected against viruses."]
+},
+{
+  "tag": "laptop_antivirus_policy_notify_email",
+  "patterns": ["What is the significance of users notifying maahr@ahb.ai in case of a virus alert or suspicious activity?"],
+  "responses": ["Users notifying maahr@ahb.ai in case of a virus alert or suspicious activity ensures immediate support and assistance from the AHB AI Infra Team."]
+},
+{
+  "tag": "laptop_antivirus_policy_monitoring_server_logs",
+  "patterns": ["What specific role does the AHB AI Infra Team play in monitoring Anti-Virus server logs, and why is it crucial?"],
+  "responses": ["The AHB AI Infra Team monitors Anti-Virus server logs to ensure all laptops and servers have the latest updates, crucial for maintaining overall system security."]
+},
+{
+  "tag": "bikal_innovation_approach",
+  "patterns": ["How does BIKAL approach innovation, and what is its motivation behind creating value for citizens?"],
+  "responses": ["BIKAL adopts an approach of iterative experimentation and gradual expansion, leveraging university research to develop effective solutions. The company's motivation lies in proactively addressing the root causes of negative events to create value for citizens."]
+},
+{
+  "tag": "bikal_product_development_specific_projects",
+  "patterns": ["What are the specific projects under BIKAL's product development, and what are their focuses?"],
+  "responses": ["BIKAL's product development projects include Event XG for gathering and extracting significant events, Synth XR for synthesizing temporal and spatial relatedness using AI, and Convoi XA for identifying the behavior of stolen vehicle convoys and alerting the Police."]
+},
+{
+  "tag": "bikal_tech_transfer_projects_diabetic_retinopathy",
+  "patterns": ["Can you elaborate on BIKAL's Tech Transfer Projects, focusing on Computer Vision for Diabetic Retinopathy Detection?"],
+  "responses": ["BIKAL's Tech Transfer Project involves developing ClearSight.ai, a comprehensive Diabetic Retinopathy Detection System. It utilizes advanced image analysis, machine learning models, real-time diagnostics, user-friendly interfaces, secure data storage, continuous model enhancement, and integration with medical systems."]
+},
+{
+  "tag": "bikal_commercial_projects_components",
+  "patterns": ["What are the specific components of BIKAL's Commercial Projects, including Ai Agent, Ai in Retail, Ai in Road Network, and Ai in Railway?"],
+  "responses": ["BIKAL's Commercial Projects encompass Ai Agent integrated into Call Centers and LOBs, Ai in Retail with QMS, IoT, and machine learning analysis, Ai in Road Network for logistics operations using AI, Machine Learning, and Predictive Data Analytics, and Ai in Railway for digital innovations in asset monitoring and predictive maintenance."]
+},
+{
+  "tag": "bikal_chatbot_features",
+  "patterns": ["What are the unique features of BIKAL's Chatbot, and how has it been fine-tuned for customer-specific domains?"],
+  "responses": ["BIKAL's Chatbot is highly scalable and can be upgraded into an AI Agent. It has been fine-tuned for specific customer domains, ensuring effectiveness and scalability in providing user interactions."]
+},
+{
+  "tag": "bikal_computer_vision_camel_detection",
+  "patterns": ["What is the potential application of BIKAL's Computer Vision model for Camel Detection?"],
+  "responses": ["BIKAL's custom-trained Computer Vision model for Camel Detection has a potential application in Camel Racing."]
+},
+{
+  "tag": "bikal_computer_vision_vehicle_detection",
+  "patterns": ["How does BIKAL's Computer Vision model for Vehicle Detection contribute to various applications, including Traffic Management and CFC Insurance Fraud?"],
+  "responses": ["BIKAL's Computer Vision model for Vehicle Detection can classify different types of vehicles, contributing to applications such as Traffic Management and CFC Insurance Fraud detection."]
+},
+{
+  "tag": "bikal_computer_vision_license_plate_detection",
+  "patterns": ["What are the potential applications of BIKAL's Computer Vision model for License Plate Detection?"],
+  "responses": ["BIKAL's Computer Vision model for License Plate Detection has potential applications in Policing, where it can read License Plate Numbers, and in CFC Insurance Fraud for enhanced detection and prevention."]
+},
+{
+  "tag": "bikal_tech_transfer_diabetic_retinopathy_security",
+  "patterns": ["How does BIKAL ensure the security of medical data in its Tech Transfer Project for Diabetic Retinopathy Detection?"],
+  "responses": ["BIKAL implements robust data security measures to ensure the confidentiality and integrity of patients' medical data in the Tech Transfer Project for Diabetic Retinopathy Detection."]
+},
+{
+  "tag": "bikal_ai_railway_asset_monitoring",
+  "patterns": ["How does BIKAL contribute to the improvement of asset monitoring in the Railways sector through its Ai in Railway project?"],
+  "responses": ["BIKAL contributes to the improvement of asset monitoring in Railways by developing a Digital Twin through its Ai in Railway project."]
+},
+{
+  "tag": "andrew_baillie_telecom_5g_forums",
+  "patterns": ["What forums and collaborations does Andrew Baillie lead in his current role, and how does he aid industry change?"],
+  "responses": ["Andrew Baillie leads forums and collaborates with service providers to aid change in the Telecom and 5G industry."]
+},
+{
+  "tag": "bikal_innovation_mena_region",
+  "patterns": ["What role does BIKAL play in the innovation ecosystem, particularly in the MENA region?"],
+  "responses": ["BIKAL serves as an Innovation Gateway, driving innovation in the MENA region and offering a crucial High-Performance Computing platform for research and tech solutions in AI, Big Data, Data Science, and IoT."]
+},
+{
+  "tag": "bikal_ai_system_trial_period",
+  "patterns": ["How long is the average Trial Period in BIKAL's Typical AI System Process Workflow, and what is its significance?"],
+  "responses": ["The average Trial Period in BIKAL's Typical AI System Process Workflow is 12 weeks, serving as a testing phase for the developed solutions."]
+},
+{
+  "tag": "bikal_ai_road_network_focus",
+  "patterns": ["What is the primary focus of BIKAL's Commercial Project, Ai in Road Network, and how does it utilize Artificial Intelligence and Machine Learning?"],
+  "responses": ["BIKAL's Commercial Project, Ai in Road Network, focuses on developing a smart AI application that assists various branches of logistics operations through the application of Artificial Intelligence, Machine Learning, and Predictive Data Analytics."]
+},
+{
+  "tag": "bikal_university_research_innovation",
+  "patterns": ["How does BIKAL leverage university research in its approach to solving social and business challenges?"],
+  "responses": ["BIKAL leverages university research through iterative experimentation and gradual expansion, drawing upon the rich heritage of innovation within the academic sector."]
+},
+{
+  "tag": "bikal_tech_transfer_diabetic_retinopathy_focus",
+  "patterns": ["What is the specific focus of BIKAL's Tech Transfer Project in Computer Vision for Diabetic Retinopathy Detection?"],
+  "responses": ["The specific focus of BIKAL's Tech Transfer Project in Computer Vision is to develop a comprehensive Diabetic Retinopathy Detection System called ClearSight.ai, utilizing advanced image analysis, machine learning models, real-time diagnostics, user-friendly interfaces, secure data storage, continuous model enhancement, and integration with medical systems."]
+},
+{
+  "tag": "bikal_fraud_prevention_insurance_banking",
+  "patterns": ["How does BIKAL contribute to the prevention and detection of Insurance & Banking Fraud, and who is the key expert leading these efforts?"],
+  "responses": ["BIKAL contributes to the prevention and detection of Insurance & Banking Fraud through the expertise of Nigel Cheeseman, who has over 20 years of experience in investigating fraud in insurance claims."]
+},
+{
+  "tag": "bikal_computer_vision_license_plate_applications",
+  "patterns": ["What is the potential application of BIKAL's Computer Vision model for License Plate Detection in the context of Policing and CFC Insurance Fraud?"],
+  "responses": ["BIKAL's Computer Vision model for License Plate Detection has potential applications in Policing, where it can read License Plate Numbers, and in CFC Insurance Fraud for enhanced detection and prevention."]
+},
+{
+  "tag": "bikal_in_house_projects_innovation_approach",
+  "patterns": ["How does BIKAL approach innovation in its in-house projects, such as the development of the Chatbot and custom-trained Computer Vision models?"],
+  "responses": ["BIKAL approaches innovation in its in-house projects by developing a highly scalable Chatbot fine-tuned for customer-specific domains. Additionally, the company custom-trains Computer Vision models for specific applications like Camel Detection, Vehicle Detection, and License Plate Detection."]
+},
+{
+  "tag": "laptop_antivirus_policy_purpose",
+  "patterns": ["What is the purpose of the Laptop Anti-Virus Policy, and why is it essential for the organization?"],
+  "responses": ["The purpose of the Laptop Anti-Virus Policy is to detect, prevent, and minimize the impact of virus outbreaks in the organization's systems. It is essential to protect the systems against the spread of malicious viruses and ensure the protective and optimum performance of users when using the systems."]
+},
+{
+  "tag": "laptop_antivirus_policy_responsibility",
+  "patterns": ["Who is responsible for the initial version of the Laptop Anti-Virus Policy, and who reviewed it?"],
+  "responses": ["Ahmed Elbanna is responsible for the initial version (V 1.0) of the Laptop Anti-Virus Policy. Mustafa Rampurawala reviewed the initial version (V 1.0)."]
+},
+{
+  "tag": "laptop_antivirus_policy_control_measures",
+  "patterns": ["What control measures are defined in the policy to protect the systems against virus attacks?"],
+  "responses": ["Control measures defined in the policy include allowing users to use only authorized and licensed software, scanning all files and software for viruses before use, and ensuring that organization's laptops are updated with anti-virus software."]
+},
+{
+  "tag": "laptop_virus_alert_response",
+  "patterns": ["What should users do if they encounter a virus alert or suspicious activity on their systems?"],
+  "responses": ["Users, upon sighting a virus alert or suspicious activity, are advised to immediately disconnect their systems from the network and contact maahr@ahb.ai for immediate support."]
+},
+{
+  "tag": "laptop_software_usage_policy",
+  "patterns": ["What is the requirement regarding the use of software by users in the organization according to the policy?"],
+  "responses": ["Users are allowed to use only authorized and licensed software in the organization. They are not allowed to use any other software without permission."]
+},
+{
+  "tag": "laptop_antivirus_team_check_update",
+  "patterns": ["What role does the AHB AI Infra Team play in checking and updating the Anti-Virus software on laptops?"],
+  "responses": ["The AHB AI Infra Team will routinely check laptops for the presence of Anti-Virus software and, if required, will install or update the latest updates."]
+},
+{
+  "tag": "laptop_antivirus_logs_monitoring",
+  "patterns": ["How does the AHB AI Infra Team monitor the Anti-Virus logs and events on laptops?"],
+  "responses": ["The AHB AI Infra Team has visibility for all laptops Anti-Virus logs and events. They regularly check the Anti-Virus server logs to ensure that all laptops and servers are running with the latest updates."]
+},
+{
+  "tag": "laptop_antivirus_disable_policy",
+  "patterns": ["Can users disable the anti-virus software residing on their laptops according to the policy?"],
+  "responses": ["No, users are not allowed to disable the anti-virus software residing on their laptops according to the policy."]
+},
+{
+  "tag": "laptop_suspicious_event_notification",
+  "patterns": ["What action does the AHB AI Infra Team take if they notice any suspicious event on a user's laptop?"],
+  "responses": ["The AHB AI Infra Team will notify the users if they notice any suspicious event on their laptops."]
+},
+{
+  "tag": "laptop_files_software_scanning_policy",
+  "patterns": ["What steps are recommended for files and software downloaded from external networks or via email before use, according to the policy?"],
+  "responses": ["Before use, all files and software downloaded or received from external networks, email, or any other medium should be first scanned for viruses or malicious content."]
+},
+{
+  "tag": "laptop_antivirus_check_frequency",
+  "patterns": ["How often does the AHB AI Infra Team check the laptops for the presence of Anti-Virus software, and why is this check important?"],
+  "responses": ["The AHB AI Infra Team routinely checks laptops for the presence of Anti-Virus software. This check is important to ensure that all laptops are equipped with the necessary protection against viruses."]
+},
+{
+  "tag": "laptop_virus_alert_notification",
+  "patterns": ["What is the significance of users notifying maahr@ahb.ai in case of a virus alert or suspicious activity?"],
+  "responses": ["Users notifying maahr@ahb.ai in case of a virus alert or suspicious activity ensures immediate support and assistance from the AHB AI Infra Team, contributing to the prompt resolution of potential threats."]
+},
+{
+  "tag": "laptop_antivirus_server_logs_monitoring",
+  "patterns": ["What specific role does the AHB AI Infra Team play in monitoring Anti-Virus server logs, and why is it crucial?"],
+  "responses": ["The AHB AI Infra Team monitors Anti-Virus server logs to ensure that all laptops and servers are running with the latest updates. This is crucial for maintaining the overall security and health of the organization's systems."]
+},
+{
+  "tag": "policy_contribution_to_performance",
+  "patterns": ["How does the policy contribute to the overall performance of users when using the systems?"],
+  "responses": ["The policy contributes to the overall performance of users by ensuring protective measures against viruses, minimizing potential disruptions, and creating a secure computing environment."]
+},
+{
+  "tag": "policy_software_installation_permission",
+  "patterns": ["Can users install or use software without permission according to the policy, and what are the consequences?"],
+  "responses": ["Users are not allowed to install or use software without permission. Consequences may include violating the policy, potential security risks, and compromise of organizational systems."]
+},
+{
+  "tag": "policy_alignment_with_objectives",
+  "patterns": ["How does the policy align with the organization's objectives in protecting against virus outbreaks?"],
+  "responses": ["The policy aligns with the organization's objectives by aiming to detect, prevent, and minimize the impact of virus outbreaks, protecting the systems and maintaining the integrity of the organization's operations."]
+},
+{
+  "tag": "update_antivirus_compliance",
+  "patterns": ["In case of an update to the Anti-Virus software, what steps does the AHB AI Infra Team take to ensure compliance?"],
+  "responses": ["The AHB AI Infra Team will install or update the latest updates for the Anti-Virus software on laptops, ensuring compliance with the latest security measures."]
+},
+{
+  "tag": "policy_contribution_to_cybersecurity_posture",
+  "patterns": ["How does the policy contribute to the organization's overall cybersecurity posture?"],
+  "responses": ["The policy contributes to the organization's overall cybersecurity posture by implementing control measures, regular checks, and user awareness, reducing the risk of virus-related security incidents."]
+},
+{
+  "tag": "policy_exemption_from_software_use",
+  "patterns": ["Can users be exempted from using authorized and licensed software, and under what circumstances?"],
+  "responses": ["Users cannot be exempted from using authorized and licensed software unless specific circumstances are approved by the relevant authorities, considering the organization's policies and security requirements."]
+},
+{
+  "tag": "antivirus_logs_visibility",
+  "patterns": ["What specific information does the AHB AI Infra Team have visibility for in the Anti-Virus logs and events?"],
+  "responses": ["The AHB AI Infra Team has visibility for all laptops Anti-Virus logs and events, allowing them to monitor and analyze security-related activities on the laptops."]
+},
+{
+  "tag": "policy_minimizing_virus_outbreaks",
+  "patterns": ["How does the policy contribute to minimizing the impact of Virus outbreaks in the organization's systems?"],
+  "responses": ["The policy contributes by defining appropriate control measures, ensuring the use of authorized software, and implementing proactive steps to detect, prevent, and minimize the impact of virus outbreaks in the organization's systems."]
+},
+{
+  "tag": "user_responsibility_virus_alert",
+  "patterns": ["What is the primary responsibility of users when encountering a virus alert or suspicious activity?"],
+  "responses": ["The primary responsibility of users is to immediately disconnect their systems from the network and contact maahr@ahb.ai for immediate support when encountering a virus alert or suspicious activity."]
+},
+{
+  "tag": "policy_enforcement_authorized_software",
+  "patterns": ["How does the policy enforce the usage of authorized and licensed software in the organization?"],
+  "responses": ["The policy enforces the usage of authorized and licensed software by explicitly stating that users are only allowed to use such software in the organization, and any use of unauthorized software is prohibited."]
+},
+{
+  "tag": "recommended_steps_files_software",
+  "patterns": ["What steps are recommended for users when receiving files or software from external networks or via email?"],
+  "responses": ["Users are recommended to scan all files and software received from external networks, email, or other mediums for viruses or malicious content before using them."]
+},
+{
+  "tag": "policy_secure_computing_environment",
+  "patterns": ["How does the policy contribute to creating a secure computing environment for users?"],
+  "responses": ["The policy contributes to a secure computing environment by setting guidelines for authorized software usage, regular checks by the AHB AI Infra Team, and immediate actions in case of virus alerts or suspicious activities."]
+},
+{
+  "tag": "policy_request_exemptions",
+  "patterns": ["Can users request exemptions from the policy's control measures, and under what conditions?"],
+  "responses": ["Exemptions from the policy's control measures can be requested under specific conditions, subject to approval by relevant authorities and compliance with organizational policies."]
+},
+{
+  "tag": "suspicious_event_notification",
+  "patterns": ["What steps are taken by the AHB AI Infra Team upon noticing any suspicious event on a user's laptop?"],
+  "responses": ["The AHB AI Infra Team will notify the users upon noticing any suspicious event on their laptops, ensuring timely communication and collaboration for potential security incidents."]
+},
+{
+  "tag": "policy_alignment_optimal_performance",
+  "patterns": ["How does the policy align with the organization's commitment to optimal system performance?"],
+  "responses": ["The policy aligns with the organization's commitment by ensuring that laptops have updated Anti-Virus software, minimizing the impact of virus outbreaks, and contributing to the optimum performance of users when using the systems."]
+},
+{
+  "tag": "policy_use_of_external_networks",
+  "patterns": ["How does the policy address the use of external networks, email, and other mediums for file and software downloads?"],
+  "responses": ["The policy addresses this by requiring all files and software downloaded from external networks, email, or other mediums to be first scanned for viruses or malicious content before use."]
+},
+{
+  "tag": "notification_suspicious_event",
+  "patterns": ["What role does the AHB AI Infra Team play in notifying users about suspicious events on their laptops?"],
+  "responses": ["The AHB AI Infra Team plays a crucial role in notifying users if any suspicious event is detected on their laptops, promoting transparency and collaboration in handling potential security issues."]
+},
+{
+  "tag": "role_of_raj_sandhu",
+  "patterns": ["What is Raj Sandhu's role in the company?"],
+  "responses": ["Raj Sandhu serves as the Director and CEO of the company."]
+},
+{
+  "tag": "operations_director",
+  "patterns": ["Who holds the position of Operations Director?"],
+  "responses": ["Jas Dahil is the Operations Director."]
+},
+{
+  "tag": "satish_vasu_title",
+  "patterns": ["What is Satish Vasu's title in the company?"],
+  "responses": ["Satish Vasu holds the position of Chief Customer Value Creator."]
+},
+{
+  "tag": "ai_infra_head",
+  "patterns": ["Who is responsible for AI Infrastructure as the AI Infra Head?"],
+  "responses": ["Mustafa Rampurawal is responsible for AI Infrastructure as the AI Infra Head."]
+},
+{
+  "tag": "administration_department_leader",
+  "patterns": ["Who is leading the Administration department?"],
+  "responses": ["Raquel Coronel is leading the Administration department."]
+},
+{
+  "tag": "marketing_head",
+  "patterns": ["Who is the Marketing Head in the company?"],
+  "responses": ["Mark Bantilan is the Marketing Head."]
+},
+{
+  "tag": "product_development_head",
+  "patterns": ["Who heads the Product Development department?"],
+  "responses": ["Maykhel De Leon is the head of the Product Development department."]
+},
+{
+  "tag": "marketing_executive",
+  "patterns": ["Which employee holds the role of Marketing Executive?"],
+  "responses": ["Karina Zafarova serves as the Marketing Executive."]
+},
+{
+  "tag": "innovation_product_developer",
+  "patterns": ["Who is responsible for Innovation and Development as a Product Developer?"],
+  "responses": ["Dushaev Sirojiddin is responsible for Innovation and Development as a Product Developer."]
+},
+{
+  "tag": "tech_transfer_innovation_management",
+  "patterns": ["Who is in charge of Tech Transfer and Innovation Management?"],
+  "responses": ["Siona Picardo is in charge of Tech Transfer and Innovation Management."]
+},
+{
+  "tag": "anang_mistry_role",
+  "patterns": ["What is Anang Mistry's role in the company?"],
+  "responses": ["Anang Mistry is the Customer Value Creator."]
+},
+{
+  "tag": "hpc_specialization",
+  "patterns": ["Who specializes in HPC Sizing, Onboarding, and Administration?"],
+  "responses": ["Raneesh specializes in HPC Sizing, Onboarding, and Administration."]
+},
+{
+  "tag": "Raneesh_hpc_specialization",
+  "patterns": ["Who is Raneesh?"],
+  "responses": ["Raneesh is a HPC specialist he specializes in HPC Sizing, Onboarding, and Administration."]
+},
+{
+  "tag": "ahmed_cybersecurity_specialization",
+  "patterns": ["What is Ahmed's specialization as a Cybersecurity Specialist?"],
+  "responses": ["Ahmed specializes in securing and monitoring the network and HPC."]
+},
+{
+  "tag": "strategic_leadership_responsibility",
+  "patterns": ["Who is responsible for Strategic Oversight and Leadership?"],
+  "responses": ["Jas Dahil is responsible for Strategic Oversight and Leadership."]
+},
+{
+  "tag": "ahb_team_roles_satish_vasu",
+  "patterns": ["What role does Satish Vasu play in the company?"],
+  "responses": ["Satish Vasu plays the role of Chief Customer Value Creator."]
+},
+{
+  "tag": "roles_satish_vasu",
+  "patterns": ["Who is Satish Vasu?"],
+  "responses": ["Satish Vasu is Chief Customer Value Creator."]
+},
+{
+  "tag": "roles_of_satish_vasu",
+  "patterns": ["Who is Satish?"],
+  "responses": ["Satish Vasu is Chief Customer Value Creator."]
+},
+{
+  "tag": "ahb_team_roles_mustafa_rampurawal",
+  "patterns": ["What are Mustafa Rampurawal's areas of expertise as the AI Infra Head?"],
+  "responses": ["Mustafa Rampurawal's areas of expertise include Infrastructure Management, HPCaaS, and High-Performance Compute."]
+},
+{
+  "tag": "ahb_team_roles_raquel_coronel",
+  "patterns": ["Who is leading the Administration department, and what are their responsibilities?"],
+  "responses": ["Raquel Coronel is leading the Administration department, with responsibilities including administration, coordination, organization, and management."]
+},
+{
+  "tag": "ahb_team_roles_mark_bantilan",
+  "patterns": ["What are Mark Bantilan's responsibilities as the Marketing Head?"],
+  "responses": ["Mark Bantilan's responsibilities include marketing, branding, promotion, and analysis."]
+},
+{
+  "tag": "ahb_team_roles_maykhel_de_leon",
+  "patterns": ["What areas does Maykhel De Leon focus on as the Product Development Head?"],
+  "responses": ["Maykhel De Leon focuses on leadership, collaboration, execution, innovation, Python, and tech in the Product Development department."]
+},
+{
+  "tag": "maykhel_de_leon_team",
+  "patterns": ["Who is Maykhel De Leon?"],
+  "responses": ["Maykhel De Leon is the head of Product Development department."]
+},
+{
+  "tag": "maykhel_de_leon_details",
+  "patterns": ["Who is Maykhel?"],
+  "responses": ["Maykhel De Leon is the head of Product Development department."]
+},
+{
+  "tag": "ahb_team_roles_karina_zafarova",
+  "patterns": ["What is Karina Zafarova's role as a Marketing Executive?"],
+  "responses": ["Karina Zafarova's role as a Marketing Executive includes campaign execution, creativity, collaboration, and communication."]
+},
+{
+  "tag": "ahb_team_roles_dushaev_sirojiddin",
+  "patterns": ["What expertise does Dushaev Sirojiddin bring to the company as a Product Developer?"],
+  "responses": ["Dushaev Sirojiddin specializes in innovation, development, testing, and iterative processes as a Product Developer."]
+},
+{
+  "tag": "ahb_team_roles_siona_picardo",
+  "patterns": ["What areas of technology and innovation does Siona Picardo oversee as the Tech Transfer Head?"],
+  "responses": ["Siona Picardo oversees technology transition, innovation, and management as the Tech Transfer Head."]
+},
+{
+  "tag": "ahb_team_roles_anang_mistry",
+  "patterns": ["How does Anang Mistry contribute to the company as a Customer Value Creator?"],
+  "responses": ["Anang Mistry contributes by being solution-oriented, customer-centric, and building strong relationships."]
+},
+{
+  "tag": "ahb_team_roles_raneesh",
+  "patterns": ["What responsibilities does Raneesh handle as the HPC Specialist?"],
+  "responses": ["Raneesh specializes in HPC sizing, onboarding, and administration as the HPC Specialist."]
+},
+{
+  "tag": "ahb_team_roles_ahmed",
+  "patterns": ["What is Ahmed's role as a Cybersecurity Specialist, and what is his area of focus?"],
+  "responses": ["Ahmed's role as a Cybersecurity Specialist involves securing and monitoring the network and HPC."]
+},
+{
+  "tag": "ahb_team_roles_ahmed_background",
+  "patterns": ["What is the background and expertise of Ahmed as a Cybersecurity Specialist?"],
+  "responses": ["Information about Ahmed's background and expertise in cybersecurity is not provided in the data."]
+},
+{
+  "tag": "ahb_team_roles_mark_marketing_manager_bikal_jv",
+  "patterns": ["Who is confirmed as the Marketing Manager for Bikal and joint ventures?"],
+  "responses": ["Mark has been confirmed as the Marketing Manager for Bikal and all joint ventures."]
+},
+{
+  "tag": "ahb_team_roles_mark_marketing_manager_role",
+  "patterns": ["What is Mark's role as the Marketing Manager?"],
+  "responses": ["Mark's role is to have the final say on material communicated internally and externally."]
+},
+{
+  "tag": "ahb_content_management_process",
+  "patterns": ["What is the process for managing content in the organization?"],
+  "responses": ["1. Share content through the CRM by uploading it to Google Drive or OneDrive and then copying the link into the CRM, tasking it to Raj. 2. Add notes and always refer to the CRM when tracking tasks and updating tasks. Share links of the log activity as well."]
+},
+{
+  "tag": "ahb_crm_training_available",
+  "patterns": ["Is ongoing training available for using the CRM?"],
+  "responses": ["Visibility is important for remote work to track what each person is doing, ensuring a streamlined record tracking of projects and tasks."]
+},
+{
+  "tag": "ahb_crm_content_management_reason",
+  "patterns": ["What is the reason for using CRM in content management?"],
+  "responses": ["Using CRM for content management provides a more streamlined record tracking of projects and tasks, along with facilitating contact database management. It makes the audit of who did what and when easier."]
+},
+{
+  "tag": "ahb_crm_delegating_to_qa_process",
+  "patterns": ["What is the process for the Delegating to QA in marketing tasks?"],
+  "responses": ["Marketing Manager > Task delegation > Task processing > QA > Deploy."]
+},
+{
+  "tag": "ahb_laptop_antivirus_policy_purpose",
+  "patterns": ["What is the purpose of the Laptop Anti-Virus Policy?"],
+  "responses": ["The policy aims to detect, prevent, and minimize the impact of virus outbreaks in the organization's systems, ensuring the protection of systems against malicious viruses, and defining control measures for user actions to safeguard against virus attacks."]
+},
+{
+  "tag": "ahb_laptop_antivirus_policy_author_review",
+  "patterns": ["Who authored and reviewed the Laptop Anti-Virus Policy?"],
+  "responses": ["The policy was authored by Ahmed Elbanna and reviewed by Mustafa Rampurawala on the 9th and 20th of Dec 2023, respectively."]
+},
+{
+  "tag": "ahb_laptop_antivirus_policy_importance",
+  "patterns": ["Why is it important to have Anti-Virus software on laptops?"],
+  "responses": ["Anti-Virus software is crucial to protect laptops and the organization's systems from malicious viruses, ensuring the overall security and performance of users when using the systems."]
+},
+{
+  "tag": "ahb_laptop_antivirus_policy_authorized_software",
+  "patterns": ["What software are users allowed to use on their laptops?"],
+  "responses": ["Users are only allowed to use authorized and licensed software within the organization. Permission is required before using any other software."]
+},
+{
+  "tag": "ahb_laptop_antivirus_policy_handle_files_software",
+  "patterns": ["How should files and software be handled before use?"],
+  "responses": ["All files and software downloaded or received, whether from external networks, email, or any other medium, should be scanned for viruses/malicious content before use."]
+},
+{
+  "tag": "ahb_laptop_antivirus_policy_mandatory_antivirus",
+  "patterns": ["Is it mandatory for laptops to have Anti-Virus software?"],
+  "responses": ["Yes, organization laptops must have Anti-Virus software installed, and users should ensure that it is regularly updated."]
+},
+{
+  "tag": "ahb_laptop_antivirus_policy_action_on_virus_alert",
+  "patterns": ["What should users do upon detecting a virus alert or suspicious activity?"],
+  "responses": ["Users should immediately disconnect their systems from the network and contact maahr@ahb.ai for immediate support."]
+},
+{
+  "tag": "ahb_laptop_antivirus_policy_disable_antivirus",
+  "patterns": ["Are users allowed to disable the Anti-Virus software on their laptops?"],
+  "responses": ["No, users are not allowed to disable the Anti-Virus software on their laptops."]
+},
+{
+  "tag": "ahb_laptop_antivirus_policy_infra_team_ensure_antivirus",
+  "patterns": ["How does the AHB AI Infra team ensure the presence of Anti-Virus software?"],
+  "responses": ["The AHB AI Infra team routinely checks laptops, installs/updates the latest Anti-Virus software, and has visibility into Anti-Virus logs and events."]
+},
+{
+  "tag": "ahb_laptop_antivirus_policy_infra_team_action_suspicious_events",
+  "patterns": ["What action does the AHB AI Infra team take if suspicious events are detected?"],
+  "responses": ["The AHB AI Infra Team will notify users if any suspicious events are detected on their laptops."]
+},
+{
+  "tag": "ahb_laptop_antivirus_policy_infra_team_check_updates",
+  "patterns": ["How often does the AHB AI Infra team check for updates?"],
+  "responses": ["The AHB AI Infra team regularly checks Anti-Virus server logs to ensure that all laptops and servers are running with the latest updates."]
+},
+{
+  "tag": "ahb_laptop_antivirus_policy_user_software_permission",
+  "patterns": ["Can users use software without permission?"],
+  "responses": ["No, users are not allowed to use any software without permission. Only authorized and licensed software is permitted."]
+},
+{
+  "tag": "memo_author_and_role",
+  "patterns": ["Who is the author of the memo and what is their role?"],
+  "responses": ["The author of the memo is Raj, and their role is CEO."]
+},
+{
+  "tag": "memo_subject",
+  "patterns": ["What is the subject of the memo?"],
+  "responses": ["The subject of the memo is \"CRM Tags and Quality of Entry."]
+},
+{
+  "tag": "memo_contacts_for_crm_tags",
+  "patterns": ["Who are the recommended contacts for assistance with CRM tags?"],
+  "responses": ["The recommended contacts for assistance with CRM tags are Sales (Satish and Raj) and Marketing (Mark)."]
+},
+{
+  "tag": "memo_importance_of_crm_quality",
+  "patterns": ["Why does the memo emphasize the importance of maintaining quality in the CRM database?"],
+  "responses": ["The memo emphasizes the importance of maintaining quality in the CRM database because it is a company asset, creates value, and will be API-integrated into AI modeling/assistant in the near future."]
+},
+{
+  "tag": "memo_consequence_of_poor_crm_quality",
+  "patterns": ["What is the potential consequence of not maintaining the CRM database according to the memo?"],
+  "responses": ["The potential consequence of not maintaining the CRM database is that contacts cannot be found, marketing won't include them in mail-out lists, and it results in wasted time and money."]
+},
+{
+  "tag": "memo_guidance_on_data_entry",
+  "patterns": ["What does the memo suggest if someone is not sure about entering data or applying tags?"],
+  "responses": ["The memo suggests that if someone is not sure about entering data or applying tags, they should ask Sales (Satish and Raj) or Marketing (Mark) and not create their own new tags without guidance."]
+},
+{
+  "tag": "memo_future_plan_for_crm_data",
+  "patterns": ["What future plan is mentioned regarding the CRM data sets in the memo?"],
+  "responses": ["The memo mentions the future plan to API all data sets into the company's own AI modeling/assistant."]
+},
+{
+  "tag": "memo_action_on_uncertain_data_entry",
+  "patterns": ["What action does the memo recommend if there is uncertainty about a data entry?"],
+  "responses": ["If there is uncertainty about a data entry, the memo recommends asking Raj for guidance and setting up a call time to discuss and have entries ready."]
+},
+{
+  "tag": "memo_standards_for_crm_data_quality",
+  "patterns": ["What standards does the memo state the CRM must have in terms of data quality?"],
+  "responses": ["The memo states that the CRM must have the highest standards in terms of data quality."]
+},
+{
+  "tag": "memo_handling_duplicate_crm_entries",
+  "patterns": ["What is the memo's recommendation if someone finds a potential duplicate entry in the CRM?"],
+  "responses": ["The memo recommends ensuring that the entry has not already been recorded before setting up the contact and addressing potential duplicates. If unsure, individuals should ask Raj for guidance."]
+},
+{
+  "tag": "memo_date_mentioned",
+  "patterns": ["What is the date mentioned in the memo?"],
+  "responses": ["The date mentioned in the memo is October 6, 2023."]
+},
+{
+  "tag": "memo_recipients_besides_all",
+  "patterns": ["Who are the recipients of the memo besides \"All\"?"],
+  "responses": ["The memo is addressed to \"All,\" and there are no specific additional recipients mentioned in the Cc (Carbon Copy) section."]
+},
+{
+  "tag": "memo_guidance_related_to_crm_entries",
+  "patterns": ["Who is Raj encouraging the team to ask for guidance related to CRM entries?"],
+  "responses": ["Raj encourages the team to ask Sales (Satish and Raj) or Marketing (Mark) for guidance related to CRM entries."]
+},
+{
+  "tag": "memo_goal_of_api_integration",
+  "patterns": ["What is the intended goal of API integration with the CRM data sets mentioned in the memo?"],
+  "responses": ["The intended goal of API integration with the CRM data sets is to integrate them into the company's own AI modeling/assistant in the near future."]
+},
+{
+  "tag": "memo_advice_on_applying_new_tags",
+  "patterns": ["What is the memo's stance on applying new tags to CRM entries without guidance?"],
+  "responses": ["The memo advises against applying new tags to CRM entries without guidance and suggests asking for ongoing training if unsure."]
+},
+{
+  "tag": "memo_characterization_of_crm_asset",
+  "patterns": ["How does the memo characterize the CRM as a company asset?"],
+  "responses": ["The memo characterizes the CRM as a company asset that creates value, emphasizing the need for the highest standards in terms of data quality."]
+},
+{
+  "tag": "memo_consequence_of_duplicates",
+  "patterns": ["What is the potential consequence of duplicates in the CRM, according to the memo?"],
+  "responses": ["The potential consequence of duplicates in the CRM is not explicitly mentioned, but it can lead to data inaccuracies, confusion, and inefficiencies."]
+},
+{
+  "tag": "memo_role_of_raj",
+  "patterns": ["What is Raj's role in the company, as mentioned in the memo?"],
+  "responses": ["Raj's role in the company, as mentioned in the memo, is CEO (Chief Executive Officer)."]
+},
+{
+  "tag": "memo_training_needed_for_crm_entries",
+  "patterns": ["What specific training does the memo suggest may be needed for the team regarding CRM entries?"],
+  "responses": ["The memo suggests that ongoing training may be needed for the team regarding CRM entries, especially for those who are unsure about what tags to enter."]
+},
+{
+  "tag": "memo_uniform_approach_to_crm_quality",
+  "patterns": ["Why does the memo stress the need for a uniform approach to maintaining quality in the CRM database?"],
+  "responses": ["The memo stresses the need for a uniform approach to maintaining quality in the CRM database to ensure consistency, accuracy, and reliability of data."]
+},
+{
+  "tag": "memo_crm_role_in_future_with_ai",
+  "patterns": ["How does the memo envision the CRM's role in the company's future plans with AI modeling/assistant?"],
+  "responses": ["The memo envisions the CRM's role in the future plans with AI modeling/assistant as being API-integrated, highlighting its importance in contributing to AI-driven processes."]
+},
+{
+  "tag": "memo_call_time_with_raj",
+  "patterns": ["What is the memo's stance on individuals setting up a call time with Raj?"],
+  "responses": ["The memo encourages individuals to set up a call time with Raj, especially when unsure about data entries, indicating a willingness to provide guidance and support."]
+},
+{
+  "tag": "memo_primary_concern_events_with_many_contacts",
+  "patterns": ["What is the primary concern addressed regarding events with many contacts being uploaded into the CRM?"],
+  "responses": ["The primary concern addressed is the need for a uniform approach to maintaining quality in the CRM database, particularly during events with many contacts being uploaded."]
+},
+{
+  "tag": "memo_crm_significance_in_costs_and_time",
+  "patterns": ["How does the memo describe the CRM's significance in terms of costs and time?"],
+  "responses": ["The memo describes the CRM's significance by stating that not maintaining the database results in wasted time and money due to the inability to find contacts and include them in marketing mail-out lists."]
+},
+{
+  "tag": "memo_expectation_api_integration_crm",
+  "patterns": ["What is the memo's expectation regarding future API integration of the CRM data sets?"],
+  "responses": ["The memo expects future API integration of the CRM data sets into the company's AI modeling/assistant, highlighting the importance of data quality for this integration."]
+},
+{
+  "tag": "memo_department_of_mark",
+  "patterns": ["What department does Mark represent in the memo?"],
+  "responses": ["Mark represents the Marketing department in the memo."]
+},
+{
+  "tag": "memo_approach_to_uncertainty_data_entries",
+  "patterns": ["How does the memo suggest individuals approach uncertainty about data entries?"],
+  "responses": ["The memo suggests individuals approach uncertainty about data entries by asking for guidance from Sales (Satish and Raj) or Marketing (Mark) and avoiding the creation of new tags without assistance."]
+},
+{
+  "tag": "memo_tone_regarding_crm_value_creation",
+  "patterns": ["What is the memo's tone regarding the CRM's role in creating value for the company?"],
+  "responses": ["The memo has a positive tone regarding the CRM's role, emphasizing that it is a company asset creating value, and, therefore, should uphold the highest standards in data quality."]
+},
+{
+  "tag": "memo_characterization_of_ongoing_training",
+  "patterns": ["How does the memo characterize the ongoing training needed for CRM entries?"],
+  "responses": ["The memo characterizes ongoing training as needed for CRM entries, encouraging individuals to seek guidance when unsure and fostering a culture of continuous learning."]
+},
+{
+  "tag": "memo_primary_focus_uniform_approach_crm_quality",
+  "patterns": ["What is the primary focus of the memo regarding the uniform approach to maintaining quality in the CRM database?"],
+  "responses": ["The primary focus of the memo is on maintaining a uniform approach to ensure quality in the CRM database, particularly during events with multiple contacts being uploaded."]
+},
+{
+  "tag": "memo_challenges_related_to_data_entries",
+  "patterns": ["What potential challenges are highlighted in the memo related to data entries in the CRM?"],
+  "responses": ["The memo highlights potential challenges related to data entries, including uncertainty about tags, potential duplicates, and the importance of asking for guidance to address these challenges."]
+},
+{
+  "tag": "memo_emphasis_on_crm_role_in_future_plans",
+  "patterns": ["How does the memo emphasize the CRM's role in the company's future plans?"],
+  "responses": ["The memo emphasizes the CRM's pivotal role by stating that it will be API-integrated into the company's AI modeling/assistant in the near future, underlining its significance in future processes."]
+},
+{
+  "tag": "memo_future_technologies_crm_data_sets",
+  "patterns": ["What future technologies are indirectly mentioned in the memo regarding CRM data sets?"],
+  "responses": ["The memo indirectly mentions future technologies by referring to the API integration of CRM data sets into the company's AI modeling/assistant, suggesting a connection between CRM and advanced technologies."]
+},
+{
+  "tag": "memo_stance_on_crm_data_quality_significance",
+  "patterns": ["What is the memo's stance on the uniqueness and significance of the CRM data quality?"],
+  "responses": ["The memo emphasizes the uniqueness and significance of the CRM data quality by stating that it is a company asset and must adhere to the highest standards."]
+},
+{
+  "tag": "memo_crm_role_upcoming_events_many_contacts",
+  "patterns": ["How does the memo envision the CRM's role in the upcoming events with many contacts being uploaded?"],
+  "responses": ["The memo envisions the CRM's role as crucial during upcoming events with many contacts being uploaded, highlighting the need for a uniform approach to maintain data quality."]
+},
+{
+  "tag": "memo_guidance_on_new_tags_crm_entries",
+  "patterns": ["What is the memo's stance on individuals creating new tags for CRM entries without guidance?"],
+  "responses": ["The memo advises against individuals creating new tags for CRM entries without guidance, reinforcing the importance of following established procedures and seeking assistance when unsure."]
+},
+{
+  "tag": "memo_significance_of_crm_entries_ai_integration",
+  "patterns": ["How does the memo convey the significance of CRM entries in the context of future AI integration?"],
+  "responses": ["The memo conveys the significance of CRM entries by emphasizing their role in future AI integration, suggesting that the data sets will be integral to the functioning of the company's AI modeling/assistant."]
+},
+{
+  "tag": "memo_support_from_raj_data_entries",
+  "patterns": ["How does the memo convey Raj's willingness to support individuals with data entries?"],
+  "responses": ["The memo conveys Raj's willingness to support individuals by encouraging them to set up a call time, indicating a proactive approach to addressing uncertainties and providing guidance for data entries."]
+},
+{
+  "tag": "memo_stance_on_data_quality_standards",
+  "patterns": ["What is the memo's stance on data quality standards in the CRM?"],
+  "responses": ["The memo's stance on data quality standards in the CRM is that it must have the highest standards, emphasizing the importance of consistency, accuracy, and reliability in the data."]
+},
+{
+  "tag": "memo_author_and_date",
+  "patterns": ["Who is the author of the memo, and what is the date mentioned?"],
+  "responses": ["The author of the memo is Raj, and the date mentioned is October 13, 2023."]
+},
+{
+  "tag": "memo_primary_subject",
+  "patterns": ["What is the primary subject of the memo?"],
+  "responses": ["The primary subject of the memo is \"Memo for Internal Meetings Format."]
+},
+{
+  "tag": "memo_recipients_in_cc_section",
+  "patterns": ["Besides \"All,\" who is specifically mentioned in the Cc (Carbon Copy) section of the memo?"],
+  "responses": ["Besides \"All,\" Jas is specifically mentioned in the Cc section of the memo."]
+},
+{
+  "tag": "raj_football_analogy_startup_to_scaleup",
+  "patterns": ["What analogy does Raj use to describe the transition from startup to scaleup?"],
+  "responses": ["Raj uses a football analogy, stating that getting promoted from one league to a higher league means facing a different level of competition, requiring a different mentality and approach."]
+},
+{
+  "tag": "raj_varied_backgrounds_of_team_members",
+  "patterns": ["How does Raj characterize the varied backgrounds of the team members?"],
+  "responses": ["Raj characterizes the varied backgrounds of the team members, ranging from working in one-office companies delivering services to larger corporates with multiple product distribution and service."]
+},
+{
+  "tag": "raj_specific_qualities_uk_product_dev_teams",
+  "patterns": ["What specific qualities from product development teams in the UK are mentioned as being part of the company?"],
+  "responses": ["Agility and inventiveness are mentioned as specific qualities from product development teams in the UK that are part of the company."]
+},
+{
+  "tag": "raj_product_dev_different_feeling",
+  "patterns": ["What is different about product development, and why does he think the company goes through a similar feeling?"],
+  "responses": ["According to Raj, product development is different because there is no set formula, and historical methods don't necessarily apply. He thinks the company goes through a similar feeling of never completing everything."]
+},
+{
+  "tag": "memo_key_concern_last_few_weeks",
+  "patterns": ["What has been a key point of concern in the last few weeks, according to the memo?"],
+  "responses": ["The lack of communication has been a key point of concern in the last few weeks."]
+},
+{
+  "tag": "memo_change_in_external_communications",
+  "patterns": ["What change does Raj anticipate in external communications from the last week and the upcoming week?"],
+  "responses": ["Raj anticipates an increase in the quality and quantity of external communications, and notably, the company will be on the radar of the leaders of nations."]
+},
+{
+  "tag": "memo_advice_internal_communications_improvement",
+  "patterns": ["What does Raj advise regarding internal communications improvement?"],
+  "responses": ["Raj advises improving internal communications and suggests having parameters in place for conducting and labeling internal meetings."]
+},
+{
+  "tag": "memo_parameters_for_brainstorm_meetings",
+  "patterns": ["What are the suggested parameters for brainstorm meetings in the memo?"],
+  "responses": ["The suggested parameters for brainstorm meetings include having a chair who coordinates the input."]
+},
+{
+  "tag": "memo_recommendations_event_management_meetings",
+  "patterns": ["What recommendations are provided for event management meetings in the memo?"],
+  "responses": ["The memo recommends having an event owner who coordinates input for event management meetings. There should be an agenda and input prior to the meeting."]
+},
+{
+  "tag": "memo_time_limit_for_set-up_meetings",
+  "patterns": ["What is the recommended time limit for set-up meetings according to the memo?"],
+  "responses": ["The recommended time limit for set-up meetings is 15 minutes maximum, discussing how a task may need clarification and explaining the reason why."]
+},
+{
+  "tag": "memo_guidance_other_meetings",
+  "patterns": ["What guidance is provided for other meetings, such as product dev/marketing/value creation?"],
+  "responses": ["For other meetings, such as product development/marketing/value creation, the memo advises having a clear chair and ensuring the organizer has meeting notes/actions recorded."]
+},
+{
+  "tag": "memo_control_of_meeting_notes_actions",
+  "patterns": ["Who has control of the meeting, and who is responsible for forming notes/actions according to the memo?"],
+  "responses": ["The coordinator/organizer/chair has control of the meeting, and he/she is responsible for forming all notes/actions."]
+},
+{
+  "tag": "memo_refining_meeting_format_future",
+  "patterns": ["What does Raj express regarding refining the meeting format in the future?"],
+  "responses": ["Raj expresses that the meeting format will be refined as they go, and any input for improvement is welcomed."]
+},
+{
+  "tag": "raj_perspective_ongoing_feeling_product_dev",
+  "patterns": ["What is Raj's perspective on the ongoing feeling of never completing everything in product development?"],
+  "responses": ["Raj mentions that there is always a feeling in product development teams, including the company, that nothing is ever completed."]
+},
+{
+  "tag": "memo_openness_to_team_input_refining_meeting_format",
+  "patterns": ["How does the memo convey Raj's openness to team input for refining the meeting format?"],
+  "responses": ["The memo conveys Raj's openness to team input by stating that the meeting format will be refined as they go, and any input for improvement is welcomed."]
+},
+{
+  "tag": "memo_emphasis_role_coordinator_organizer_chair",
+  "patterns": ["What emphasis does Raj place on the role of the coordinator/organizer/chair in the meeting format?"],
+  "responses": ["Raj emphasizes that the coordinator/organizer/chair has control of the meeting, and all notes/actions are to be formed by him/her."]
+},
+{
+  "tag": "memo_foresee_external_communications_company_visibility",
+  "patterns": ["What does Raj foresee regarding external communications and the company's visibility?"],
+  "responses": ["Raj foresees an increase in external communications' quality and quantity, with the company being on the radar of leaders of nations."]
+},
+{
+  "tag": "memo_describe_transition_startup_scaleup_mindset",
+  "patterns": ["How does Raj describe the transition from startup to scaleup in terms of mindset?"],
+  "responses": ["Raj describes the transition from startup to scaleup as requiring a different mindset, akin to moving from one league to a higher league in football, necessitating a different level of competition."]
+},
+{
+  "tag": "memo_analogy_company_experience_product_dev_UK",
+  "patterns": ["What analogy does Raj draw between the company's experience and product development teams in the UK?"],
+  "responses": ["Raj draws an analogy stating that, like product development teams in the UK, the company experiences a feeling that nothing is ever completed."]
+},
+{
+  "tag": "memo_specific_qualities_product_dev_teams_UK",
+  "patterns": ["What specific qualities from product development teams in the UK does Raj mention as part of the company's approach?"],
+  "responses": ["Raj mentions agility and inventiveness as specific qualities from product development teams in the UK that are part of the company's approach."]
+},
+{
+  "tag": "memo_lack_of_communication_recent_weeks",
+  "patterns": ["According to the memo, why is the lack of communication a key concern in recent weeks?"],
+  "responses": ["The lack of communication is a key concern in recent weeks, attributed to some mitigation factors that prevent planning ahead due to various factors out of the company's control."]
+},
+{
+  "tag": "memo_anticipate_company_external_communications",
+  "patterns": ["How does Raj anticipate the company's external communications changing in the upcoming weeks?"],
+  "responses": ["Raj anticipates an increase in the quality and quantity of external communications in the upcoming weeks, with the company being on the radar of leaders of nations."]
+},
+{
+  "tag": "memo_advice_internal_communications_improvement",
+  "patterns": ["What internal communications improvement does Raj advise, and why?"],
+  "responses": ["Raj advises improving internal communications, emphasizing the need for parameters in place for suggestions on how to conduct and label internal meetings."]
+},
+{
+  "tag": "memo_role_chair_brainstorm_meetings",
+  "patterns": ["What is the suggested role of a chair in brainstorm meetings, according to the memo?"],
+  "responses": ["In brainstorm meetings, the memo suggests having a chair who coordinates the input."]
+},
+{
+  "tag": "memo_recommendations_event_management_meetings",
+  "patterns": ["What recommendations are given for event management meetings in the memo?"],
+  "responses": ["The memo recommends having an event owner who coordinates input, an agenda, and input prior to the meeting for event management meetings."]
+},
+{
+  "tag": "memo_time_limit_for_set-up_meetings",
+  "patterns": ["What time limit does the memo recommend for set-up meetings, and why?"],
+  "responses": ["The memo recommends a 15-minute maximum for set-up meetings, focusing on how a task may need clarification and explaining the reason why."]
+},
+{
+  "tag": "memo_responsibility_coordinator_organizer_chair_meetings",
+  "patterns": ["What responsibility does the coordinator/organizer/chair hold in the context of meetings?"],
+  "responses": ["The coordinator/organizer/chair has control of the meeting, and all notes/actions are to be formed by him/her, according to the memo."]
+},
+{
+  "tag": "memo_envision_refinement_meeting_format_future",
+  "patterns": ["How does Raj envision the refinement of the meeting format in the future?"],
+  "responses": ["Raj envisions refining the meeting format as they go, with any input for improvement being welcomed from the team."]
+},
+{
+  "tag": "raj_perspective_ongoing_feeling_product_dev",
+  "patterns": ["What does Raj express regarding the feeling of never completing everything in product development?"],
+  "responses": ["Raj expresses that there is always a feeling in product development teams, including the company, that nothing is ever completed."]
+},
+{
+  "tag": "raj_stance_ongoing_feeling_incompleteness_product_dev",
+  "patterns": ["What is Raj's stance on the ongoing feeling of incompleteness in product development, and how does it relate to the company's experience?"],
+  "responses": ["Raj acknowledges the feeling of incompleteness in product development and notes that the company goes through a similar sentiment."]
+},
+{
+  "tag": "raj_approach_team_input_refining_meeting_format",
+  "patterns": ["What is Raj's approach to team input for refining the meeting format?"],
+  "responses": ["Raj's approach is open to team input, and he mentions that the meeting format will be refined as they go, with any input for improvement being welcomed."]
+},
+{
+  "tag": "memo_emphasis_importance_data_quality_CRM",
+  "patterns": ["How does the memo place emphasis on the importance of data quality in the CRM?"],
+  "responses": ["The memo places a strong emphasis on the importance of data quality in the CRM, stating that it is a company asset and must have the highest standards."]
+},
+{
+  "tag": "raj_willingness_support_individuals_data_entries_CRM",
+  "patterns": ["How does Raj convey his willingness to support individuals with data entries in the CRM?"],
+  "responses": ["Raj conveys his willingness to support individuals by encouraging them to set up a call time and have their entries ready, indicating proactive assistance."]
+},
+{
+  "tag": "raj_mention_future_integration_CRM_data_sets_AI_assistant",
+  "patterns": ["What does Raj mention about the future integration of CRM data sets into the company's AI modeling/assistant?"],
+  "responses": ["Raj mentions the future integration of CRM data sets into the company's AI modeling/assistant through API, suggesting a connection between CRM and advanced technologies."]
+},
+{
+  "tag": "memo_describe_company_unique_approach_solving_challenges",
+  "patterns": ["How does the memo describe the company's unique approach to solving challenges?"],
+  "responses": ["The memo describes the company's unique approach as revolving around iterative experimentation and gradual expansion, harnessing the power of university research to address challenges."]
+},
+{
+  "tag": "memo_product_development_projects_mentioned",
+  "patterns": ["What are some of the product development projects mentioned in the memo?"],
+  "responses": ["Some product development projects mentioned include Event XG Gather and Extract, Synth XR Extract and Relate, and Convoi XA for identifying stolen vehicle convoys."]
+},
+{
+  "tag": "memo_role_BIKAL_unique_approach",
+  "patterns": ["What role does BIKAL play in the memo, and what is its unique approach?"],
+  "responses": ["BIKAL is described as a UK-based company dedicated to harnessing the power of university research to address social and business challenges, with a unique approach rooted in continuous learning."]
+},
+{
+  "tag": "memo_current_users_CRM",
+  "patterns": ["How many users are currently on the CRM?"],
+  "responses": ["There are currently 11 users on the CRM."]
+},
+{
+  "tag": "memo_purpose_using_CRM",
+  "patterns": ["What is the purpose of using the CRM more and moving away from email?"],
+  "responses": ["The purpose is to set tasks for one another, update pending tasks, and establish a habit of using CRM for individual tasks, assigning tasks to others, and managing projects."]
+},
+{
+  "tag": "memo_applicability_CRM_in-house_product_dev",
+  "patterns": ["Is the CRM applicable for in-house product development?"],
+  "responses": ["The CRM may not be applicable for in-house product development, as most of that is handled internally. However, it can be used to set tasks for external and internal parties and to view Clickup updates."]
+},
+{
+  "tag": "memo_handling_pending_tasks_CRM",
+  "patterns": ["What should users do regarding pending tasks in the CRM?"],
+  "responses": ["Users are encouraged to go into the CRM and update any pending tasks they may have."]
+},
+{
+  "tag": "memo_making_CRM_habit_for_tasks",
+  "patterns": ["How can users make using the CRM a habit for their tasks?"],
+  "responses": ["Users can start making it a habit by using the CRM for their own tasks, assigning tasks to others, and managing projects within the platform."]
+},
+{
+  "tag": "memo_handling_external_emails_CRM",
+  "patterns": ["Should external emails be handled differently in the CRM?"],
+  "responses": ["Yes, ensure all external emails sent are with BCC to the Dropbox within the CRM."]
+},
+{
+  "tag": "memo_actions_Raquel_Coronel_CRM",
+  "patterns": ["What actions will Raquel Coronel take regarding the CRM?"],
+  "responses": ["Raquel Coronel will continue to view the CRM and requests feedback on how users are using it. This feedback will be used to create procedures and refine other tools in the CRM, such as tracking and planning a project."]
+},
+{
+  "tag": "memo_purpose_using_CRM_tasks_project_management",
+  "patterns": ["What is the purpose of using CRM for tasks and project management?"],
+  "responses": ["The purpose is to streamline task and project management, moving away from traditional email communication."]
+},
+{
+  "tag": "memo_users_use_CRM_set_tasks_external_internal_parties",
+  "patterns": ["Can users use CRM to set tasks for both external and internal parties?"],
+  "responses": ["Yes, users can use CRM to set tasks for both external and internal parties."]
+},
+{
+  "tag": "memo_provide_feedback_usage_CRM",
+  "patterns": ["How should users provide feedback on their usage of the CRM?"],
+  "responses": ["Users should provide feedback to Raquel Coronel on how they are using the CRM, assisting in creating procedures and refining tools within the CRM for better tracking and planning of projects."]
+},
+{
+  "tag": "memo_Raquel_Coronel_role_CRM",
+  "patterns": ["What is Raquel Coronel's role in relation to the CRM?"],
+  "responses": ["Raquel Coronel will continue to view the CRM, monitor its usage, and gather feedback from users."]
+},
+{
+  "tag": "memo_primary_focus_Oct_30_2023_memo_Raj",
+  "patterns": ["What is the primary focus of the memo dated October 30, 2023, from Raj?"],
+  "responses": ["The primary focus of the memo is on the company's Corporate Social Responsibility (CSR) initiatives and recent activities related to supporting teenagers through the CSR budget."]
+},
+{
+  "tag": "memo_laptops_provided_teens",
+  "patterns": ["How many teenagers have been provided with laptops in the past month, and what kind of laptops were provided?"],
+  "responses": ["In the past month, two teenagers have been provided with inexpensive laptops (circa $600) featuring i3 Intel CPUs."]
+},
+{
+  "tag": "memo_criteria_laptop_donations",
+  "patterns": ["What criteria were considered in selecting individuals for the laptop donations, as mentioned in the memo?"],
+  "responses": ["Individuals selected for laptop donations are described as being at a slight disadvantage in their family life, showing promise in education, and lacking stable families in the traditional sense."]
+},
+{
+  "tag": "memo_allocation_CSR_monthly_gifts",
+  "patterns": ["How much has been allocated per month for gifts and charitable causes as part of the Bikal CSR?"],
+  "responses": ["The memo states that $700 per month has been allocated for gifts and other charitable causes as part of the Bikal CSR initiatives."]
+},
+{
+  "tag": "memo_privacy_concerns_CSR_cases",
+  "patterns": ["Why is there a mention of privacy concerns in some CSR cases, according to the memo?"],
+  "responses": ["Privacy concerns are mentioned to highlight that some CSR cases, including the laptop donations to teenagers, are not mentioned or publicized for privacy reasons."]
+},
+{
+  "tag": "memo_objective_laptops_teens",
+  "patterns": ["What is the objective of providing laptops to the mentioned teenagers, as explained in the memo?"],
+  "responses": ["The objective is to provide guidance, not instruction, to the teenagers, allowing them to reach out to anyone in the company for advice. Employability, particularly in the context of AI's impact on various industries, is emphasized."]
+},
+{
+  "tag": "memo_impact_AI_company",
+  "patterns": ["How does the memo illustrate the broader impact of AI and the company's role in addressing it?"],
+  "responses": ["The memo mentions Raj arranging a session between Sirojiddin and Karina to discuss what AI could do. This aims to help Karina understand the company's work and potentially apply it in marketing, illustrating the broader impact of AI on different areas."]
+},
+{
+  "tag": "memo_invite_employees_contribute_time",
+  "patterns": ["How does Raj invite employees to contribute their time, and for what purpose?"],
+  "responses": ["Raj invites employees to provide some of their time for engagement with the teenagers. The purpose is to offer guidance and support, emphasizing employability and the broader impact of AI."]
+},
+{
+  "tag": "memo_future_student_engagement_initiative",
+  "patterns": ["What future student engagement initiative is mentioned in the memo, and how can employees get involved?"],
+  "responses": ["The memo mentions the consideration of holding a Hackathon at SRTIP (date to be confirmed) for student engagement. Employees interested in being involved are encouraged to inform Mark."]
+},
+{
+  "tag": "memo_action_arranging_AI_session",
+  "patterns": ["What action did Raj recently take to enhance understanding about AI within the company?"],
+  "responses": ["Raj arranged a session between Sirojiddin and Karina to facilitate a conversation about what AI could do. This was aimed at enhancing understanding within the company, particularly in the context of AI's impact."]
+},
+{
+  "tag": "memo_theme_guidance_teenagers",
+  "patterns": ["How does Raj describe the theme underlying the guidance provided to the teenagers?"],
+  "responses": ["The theme underlying the guidance provided to the teenagers is employability, with an acknowledgment of the significant changes AI is bringing to various industries."]
+},
+{
+  "tag": "memo_role_CSR_budget",
+  "patterns": ["What is the role of the CSR budget in the mentioned activities, according to the memo?"],
+  "responses": ["The CSR budget is allocated for gifts, including laptops, and other charitable causes, serving as a means to support various initiatives, such as providing guidance to teenagers."]
+},
+{
+  "tag": "memo_emphasize_privacy_CSR_cases",
+  "patterns": ["How does the memo emphasize the importance of privacy in certain CSR cases?"],
+  "responses": ["Privacy is emphasized in certain CSR cases to maintain confidentiality and respect for individuals' situations, ensuring that some cases are not mentioned or publicized."]
+},
+{
+  "tag": "memo_envision_employees_contribution_teenagers",
+  "patterns": ["How does Raj envision employees contributing to the guidance of the teenagers, and how can they express their interest?"],
+  "responses": ["Raj encourages employees to contribute their time for guidance, and those interested can reach out to him to express their willingness."]
+},
+{
+  "tag": "memo_potential_impact_AI_employability",
+  "patterns": ["What does the memo reveal about the potential impact of AI on employability and its connection to the company's activities?"],
+  "responses": ["The memo suggests that employability is a significant theme, and with the massive change brought by AI, this theme touches all industries. The company aims to provide guidance in this context."]
+},
+{
+  "tag": "memo_purpose_arranging_session_AI",
+  "patterns": ["What is the purpose of Raj arranging a session between Sirojiddin and Karina regarding AI?"],
+  "responses": ["The purpose of arranging the session is to enhance understanding about what AI could do. It is also mentioned that Karina may potentially apply this understanding in marketing activities."]
+},
+{
+  "tag": "memo_highlight_privacy_CSR_cases",
+  "patterns": ["How does the memo highlight the privacy aspect in handling CSR cases?"],
+  "responses": ["The memo mentions that some CSR cases, including the laptop donations to teenagers, are not mentioned or publicized to maintain privacy."]
+},
+{
+  "tag": "memo_future_student_engagement_Hackathon",
+  "patterns": ["What future student engagement initiative is mentioned in the memo, and who should be contacted for involvement?"],
+  "responses": ["The memo mentions the consideration of holding a Hackathon at SRTIP, and Mark is designated as the contact person for employees interested in being involved."]
+},
+{
+  "tag": "memo_contribute_student_engagement_Hackathon",
+  "patterns": ["How does the memo suggest employees can contribute to student engagement, specifically in the context of a Hackathon?"],
+  "responses": ["Employees interested in contributing to student engagement, particularly in the Hackathon initiative, are advised to inform Mark, indicating a proactive involvement opportunity."]
+},
+{
+  "tag": "memo_broader_objective_CSR_initiatives",
+  "patterns": ["What is the broader objective of the CSR initiatives mentioned in the memo?"],
+  "responses": ["The broader objective of the CSR initiatives, as outlined in the memo, is to provide support to individuals, such as teenagers, who may face disadvantages in family life, emphasizing guidance and employability."]
+},
+{
+  "tag": "memo_encourage_employees_participate_teenagers",
+  "patterns": ["How does the memo encourage employees to participate in the guidance of teenagers?"],
+  "responses": ["The memo encourages employees to contribute their time for guidance, creating an avenue for teenagers to reach out to anyone in the company and receive advice, particularly about employability."]
+},
+{
+  "tag": "memo_information_laptops_teens_specifications_cost",
+  "patterns": ["What information does the memo provide about the laptops given to teenagers, such as specifications and cost?"],
+  "responses": ["The memo mentions providing inexpensive laptops (circa $600) with i3 Intel CPUs to two teenagers who are at a slight disadvantage in family life and have shown promise in education."]
+},
+{
+  "tag": "memo_emphasize_guidance_teenagers_instruction",
+  "patterns": ["What does Raj emphasize regarding the guidance provided to teenagers, particularly in terms of instruction?"],
+  "responses": ["Raj emphasizes that the aim is for teenagers to receive guidance, not instruction, allowing them to reach out to anyone in the company for advice related to employability and other aspects."]
+},
+{
+  "tag": "memo_significance_session_AI_Karina",
+  "patterns": ["What is the significance of the mentioned session between Sirojiddin and Karina regarding AI?"],
+  "responses": ["The session is significant as it aims to enhance Karina's understanding of what AI could do, potentially leading to its application in marketing activities. It underscores the company's commitment to sharing knowledge internally."]
+},
+{
+  "tag": "memo_express_willingness_support_employees",
+  "patterns": ["How does Raj express his willingness to support employees interested in contributing their time for guidance?"],
+  "responses": ["Raj expresses his willingness to support employees by inviting them to reach out to him if they want to provide some of their time for guidance."]
+},
+{
+  "tag": "memo_context_AI_impact_employability",
+  "patterns": ["In what context does the memo mention the potential impact of AI on employability, and why is this considered important?"],
+  "responses": ["The memo mentions employability as a theme touched by the massive change brought by AI, emphasizing its importance in the broader context of changes occurring across various industries."]
+},
+{
+  "tag": "memo_highlight_role_CSR_budget_charitable_causes",
+  "patterns": ["How does the memo highlight the role of the CSR budget in supporting charitable causes beyond laptop donations?"],
+  "responses": ["The CSR budget is mentioned as being allocated not only for laptop gifts but also for other charitable causes, demonstrating its role in supporting a range of initiatives aligned with CSR objectives."]
+},
+{
+  "tag": "memo_approach_data_quality_CRM_Oct_6_2023",
+  "patterns": ["What is Raj's approach to data quality in the CRM, as mentioned in the October 6, 2023 memo?"],
+  "responses": ["Raj emphasizes the need for a uniform approach to maintaining data quality in the CRM, particularly during events with many contacts being uploaded. He encourages seeking guidance if unsure about data entry."]
+},
+{
+  "tag": "memo_connect_training_data_quality_CRM",
+  "patterns": ["How does the memo connect the ongoing training needs to maintaining data quality in the CRM?"],
+  "responses": ["The memo suggests that ongoing training is needed, especially during events with many contacts being uploaded into the CRM. Raj encourages asking for guidance if unsure about tags and emphasizes the importance of data quality."]
+},
+{
+  "tag": "memo_future_integration_data_AI_modeling",
+  "patterns": ["How does the memo highlight the future integration of data sets into the company's AI modeling/assistant, and why is data quality crucial in this context?"],
+  "responses": ["The memo mentions the future integration of data sets into the company's AI modeling/assistant. It underscores the importance of maintaining the utmost attention to data quality, as high-quality data is essential for effective integration and utilization in AI models."]
+},
+{
+  "tag": "memo_owner_CRM",
+  "patterns": ["Who is the owner of the CRM?"],
+  "responses": ["The ownership of the CRM belongs to Satish Vasu."]
+},
+{
+  "tag": "memo_responsible_tags_parameters_CRM",
+  "patterns": ["Who is responsible for managing tags and parameters in the CRM?"],
+  "responses": ["Satish Vasu is responsible for managing tags and any other parameterization of the CRM."]
+},
+{
+  "tag": "memo_additional_tags_needed_CRM",
+  "patterns": ["What should be done if additional tags are needed in the CRM?"],
+  "responses": ["If anyone needs additional tags or assistance in creating parameters on the CRM, kindly contact Satish Vasu before adding or deleting information to ensure harmonization of the CRM with relevant information."]
+},
+{
+  "tag": "memo_help_creating_parameters_CRM",
+  "patterns": ["How can users get help with creating parameters on the CRM?"],
+  "responses": ["Users can contact Satish Vasu for help with creating parameters on the CRM."]
+},
+{
+  "tag": "memo_importance_contacting_Satish_Vasu",
+  "patterns": ["Why is it important to contact Satish Vasu before modifying CRM information?"],
+  "responses": ["Contacting Satish Vasu before making changes ensures harmonization of the CRM with relevant information, as he is responsible for managing tags and parameters."]
+},
+{
+  "tag": "memo_purpose_CRM_ownership_notice",
+  "patterns": ["What is the purpose of this notice about CRM ownership?"],
+  "responses": ["The notice aims to inform users that Satish Vasu owns the CRM and is responsible for managing tags and parameters. Users are advised to seek his assistance before making changes for harmonization of information."]
+},
+{
+  "tag": "role_of_Satish_Vasu_CRM",
+  "patterns": ["What is the role of Satish Vasu in relation to the CRM?"],
+  "responses": ["Satish Vasu is responsible for managing the tags and any other parameterization of the CRM."]
+},
+{
+  "tag": "harmonization_CRM_relevant_information",
+  "patterns": ["How can users ensure harmonization of the CRM with relevant information?"],
+  "responses": ["Users can ensure harmonization by contacting Satish Vasu before adding or deleting information, especially when needing additional tags or help in creating parameters on the CRM."]
+},
+{
+  "tag": "contact_person_CRM_assistance",
+  "patterns": ["Who should be contacted for CRM-related queries or assistance?"],
+  "responses": ["Satish Vasu should be contacted for any CRM-related queries or assistance, including the need for additional tags or help in creating parameters."]
+},
+{
+  "tag": "maintain_consistency_CRM_management",
+  "patterns": ["What is the best way to maintain consistency in CRM management?"],
+  "responses": ["To maintain consistency in CRM management, users are advised to reach out to Satish Vasu for any changes or additions, ensuring that the CRM stays harmonized with relevant information."]
+},
+{
+  "tag": "contribute_harmonization_CRM",
+  "patterns": ["How can users contribute to the harmonization of the CRM?"],
+  "responses": ["Users can contribute to the harmonization of the CRM by following the instruction to contact Satish Vasu before making any changes or additions, ensuring that the CRM remains consistent and aligned with relevant information."]
+}
+
+]
+}
